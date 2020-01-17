@@ -1,0 +1,1789 @@
+#
+# Memory domain: posix
+#            component: posix
+#             allocate: unlimited
+#           remote key: 45 bytes
+#
+#   Transport: mm
+#
+#   Device: posix
+#
+#      capabilities:
+#            bandwidth: 12179.00 MB/sec
+#              latency: 80 nsec
+#             overhead: 10 nsec
+#            put_short: <= 4294967295
+#            put_bcopy: unlimited
+#            get_bcopy: unlimited
+#             am_short: <= 92
+#             am_bcopy: <= 8K
+#               domain: cpu
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 0
+#       device address: 8 bytes
+#        iface address: 16 bytes
+#       error handling: none
+#
+#
+# Memory domain: sysv
+#            component: sysv
+#             allocate: unlimited
+#           remote key: 40 bytes
+#
+#   Transport: mm
+#
+#   Device: sysv
+#
+#      capabilities:
+#            bandwidth: 12179.00 MB/sec
+#              latency: 80 nsec
+#             overhead: 10 nsec
+#            put_short: <= 4294967295
+#            put_bcopy: unlimited
+#            get_bcopy: unlimited
+#             am_short: <= 92
+#             am_bcopy: <= 8K
+#               domain: cpu
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 0
+#       device address: 8 bytes
+#        iface address: 16 bytes
+#       error handling: none
+#
+#
+# Memory domain: self
+#            component: self
+#             register: unlimited, cost: 0 nsec
+#           remote key: 16 bytes
+#
+#   Transport: self
+#
+#   Device: self
+#
+#      capabilities:
+#            bandwidth: 6911.00 MB/sec
+#              latency: 0 nsec
+#             overhead: 10 nsec
+#            put_short: <= 4294967295
+#            put_bcopy: unlimited
+#            get_bcopy: unlimited
+#             am_short: <= 8K
+#             am_bcopy: <= 8K
+#               domain: cpu
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 0
+#       device address: 0 bytes
+#        iface address: 8 bytes
+#       error handling: none
+#
+#
+# Memory domain: tcp
+#            component: tcp
+#
+#   Transport: tcp
+#
+#   Device: eth0_224
+#
+#      capabilities:
+#            bandwidth: 11818.05 MB/sec
+#              latency: 5206 nsec
+#             overhead: 50000 nsec
+#             am_short: <= 8K
+#             am_bcopy: <= 8K
+#           connection: to iface
+#             priority: 1
+#       device address: 4 bytes
+#        iface address: 2 bytes
+#       error handling: none
+#
+#   Device: eth3
+#
+#      capabilities:
+#            bandwidth: 1181.80 MB/sec
+#              latency: 5258 nsec
+#             overhead: 50000 nsec
+#             am_short: <= 8K
+#             am_bcopy: <= 8K
+#           connection: to iface
+#             priority: 1
+#       device address: 4 bytes
+#        iface address: 2 bytes
+#       error handling: none
+#
+#   Device: eth0_144
+#
+#      capabilities:
+#            bandwidth: 11818.05 MB/sec
+#              latency: 5206 nsec
+#             overhead: 50000 nsec
+#             am_short: <= 8K
+#             am_bcopy: <= 8K
+#           connection: to iface
+#             priority: 1
+#       device address: 4 bytes
+#        iface address: 2 bytes
+#       error handling: none
+#
+#   Device: ib1
+#
+#      capabilities:
+#            bandwidth: 6239.81 MB/sec
+#              latency: 5210 nsec
+#             overhead: 50000 nsec
+#             am_short: <= 8K
+#             am_bcopy: <= 8K
+#           connection: to iface
+#             priority: 1
+#       device address: 4 bytes
+#        iface address: 2 bytes
+#       error handling: none
+#
+#   Device: ib6
+#
+#      capabilities:
+#            bandwidth: 6239.81 MB/sec
+#              latency: 5210 nsec
+#             overhead: 50000 nsec
+#             am_short: <= 8K
+#             am_bcopy: <= 8K
+#           connection: to iface
+#             priority: 1
+#       device address: 4 bytes
+#        iface address: 2 bytes
+#       error handling: none
+#
+#   Device: ib4
+#
+#      capabilities:
+#            bandwidth: 6239.81 MB/sec
+#              latency: 5210 nsec
+#             overhead: 50000 nsec
+#             am_short: <= 8K
+#             am_bcopy: <= 8K
+#           connection: to iface
+#             priority: 1
+#       device address: 4 bytes
+#        iface address: 2 bytes
+#       error handling: none
+#
+#
+# Memory domain: cuda_cpy
+#            component: cuda_cpy
+#             register: unlimited, cost: 0 nsec
+#
+#   Transport: cuda_copy
+#
+#   Device: cudacopy0
+#
+#      capabilities:
+#            bandwidth: 6911.00 MB/sec
+#              latency: 10000 nsec
+#             overhead: 0 nsec
+#            put_short: <= 4294967295
+#            put_zcopy: unlimited, up to 1 iov
+#  put_opt_zcopy_align: <= 1
+#        put_align_mtu: <= 1
+#            get_short: <= 4294967295
+#            get_zcopy: unlimited, up to 1 iov
+#  get_opt_zcopy_align: <= 1
+#        get_align_mtu: <= 1
+#           connection: to iface
+#             priority: 0
+#       device address: 0 bytes
+#        iface address: 8 bytes
+#       error handling: none
+#
+#
+# Memory domain: cuda_ipc
+#            component: cuda_ipc
+#             register: <= 1G, cost: 0 nsec
+#           remote key: 104 bytes
+#
+#   Transport: cuda_ipc
+#
+#   Device: cudaipc0
+#
+#      capabilities:
+#            bandwidth: 6911.00 MB/sec
+#              latency: 1 nsec
+#             overhead: 0 nsec
+#            put_zcopy: <= 1G, up to 1 iov
+#  put_opt_zcopy_align: <= 1
+#        put_align_mtu: <= 1
+#            get_zcopy: <= 1G, up to 1 iov
+#  get_opt_zcopy_align: <= 1
+#        get_align_mtu: <= 1
+#           connection: to iface
+#             priority: 0
+#       device address: 8 bytes
+#        iface address: 4 bytes
+#       error handling: none
+#
+#
+# Memory domain: gdr_copy
+#            component: gdr_copy
+#             register: unlimited, cost: 0 nsec
+#           remote key: 32 bytes
+#
+#   Transport: gdr_copy
+#
+#   Device: gdrcopy0
+#
+#      capabilities:
+#            bandwidth: 6911.00 MB/sec
+#              latency: 1000 nsec
+#             overhead: 0 nsec
+#            put_short: <= 4294967295
+#            get_short: <= 4294967295
+#           connection: to iface
+#             priority: 0
+#       device address: 0 bytes
+#        iface address: 8 bytes
+#       error handling: none
+#
+#
+# Memory domain: ib/mlx5_0
+#            component: ib
+#             register: unlimited, cost: 90 nsec
+#           remote key: 24 bytes
+#           local memory handle is required for zcopy
+#
+#   Transport: rc
+#
+#   Device: mlx5_0:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 600 nsec + 1 * N
+#             overhead: 75 nsec
+#            put_short: <= 124
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 123
+#             am_bcopy: <= 8191
+#             am_zcopy: <= 8191, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 127
+#               domain: device
+#           atomic_add: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 19 bytes
+#           ep address: 4 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: rc_mlx5
+#
+#   Device: mlx5_0:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 600 nsec + 1 * N
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 186
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 19 bytes
+#           ep address: 7 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: dc_mlx5
+#
+#   Device: mlx5_0:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 660 nsec
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 138
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 5 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: ud
+#
+#   Device: mlx5_0:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 610 nsec
+#             overhead: 105 nsec
+#             am_short: <= 116
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 3984
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: ud_mlx5
+#
+#   Device: mlx5_0:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 610 nsec
+#             overhead: 80 nsec
+#             am_short: <= 180
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 132
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: cm
+#
+#   Device: mlx5_0:1
+#
+#      capabilities:
+#            bandwidth: 9329.42 MB/sec
+#              latency: 600 nsec
+#             overhead: 1200 nsec
+#             am_bcopy: <= 214
+#           connection: to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 4 bytes
+#       error handling: none
+#
+#
+# Memory domain: ib/mlx5_2
+#            component: ib
+#             register: unlimited, cost: 90 nsec
+#           remote key: 24 bytes
+#           local memory handle is required for zcopy
+#
+#   Transport: rc
+#
+#   Device: mlx5_2:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 600 nsec + 1 * N
+#             overhead: 75 nsec
+#            put_short: <= 124
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 123
+#             am_bcopy: <= 8191
+#             am_zcopy: <= 8191, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 127
+#               domain: device
+#           atomic_add: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 19 bytes
+#           ep address: 4 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: rc_mlx5
+#
+#   Device: mlx5_2:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 600 nsec + 1 * N
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 186
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 19 bytes
+#           ep address: 7 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: dc_mlx5
+#
+#   Device: mlx5_2:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 660 nsec
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 138
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 5 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: ud
+#
+#   Device: mlx5_2:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 610 nsec
+#             overhead: 105 nsec
+#             am_short: <= 116
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 3984
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: ud_mlx5
+#
+#   Device: mlx5_2:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 610 nsec
+#             overhead: 80 nsec
+#             am_short: <= 180
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 132
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: cm
+#
+#   Device: mlx5_2:1
+#
+#      capabilities:
+#            bandwidth: 9329.42 MB/sec
+#              latency: 600 nsec
+#             overhead: 1200 nsec
+#             am_bcopy: <= 214
+#           connection: to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 4 bytes
+#       error handling: none
+#
+#
+# Memory domain: ib/mlx5_4
+#            component: ib
+#             register: unlimited, cost: 90 nsec
+#           remote key: 24 bytes
+#           local memory handle is required for zcopy
+#
+#   Transport: rc
+#
+#   Device: mlx5_4:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 600 nsec + 1 * N
+#             overhead: 75 nsec
+#            put_short: <= 124
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 123
+#             am_bcopy: <= 8191
+#             am_zcopy: <= 8191, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 127
+#               domain: device
+#           atomic_add: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 19 bytes
+#           ep address: 4 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: rc_mlx5
+#
+#   Device: mlx5_4:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 600 nsec + 1 * N
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 186
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 19 bytes
+#           ep address: 7 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: dc_mlx5
+#
+#   Device: mlx5_4:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 660 nsec
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 138
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 5 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: ud
+#
+#   Device: mlx5_4:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 610 nsec
+#             overhead: 105 nsec
+#             am_short: <= 116
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 3984
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: ud_mlx5
+#
+#   Device: mlx5_4:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 610 nsec
+#             overhead: 80 nsec
+#             am_short: <= 180
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 132
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: cm
+#
+#   Device: mlx5_4:1
+#
+#      capabilities:
+#            bandwidth: 9329.42 MB/sec
+#              latency: 600 nsec
+#             overhead: 1200 nsec
+#             am_bcopy: <= 214
+#           connection: to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 4 bytes
+#       error handling: none
+#
+#
+# Memory domain: ib/mlx5_6
+#            component: ib
+#             register: unlimited, cost: 90 nsec
+#           remote key: 24 bytes
+#           local memory handle is required for zcopy
+#
+#   Transport: rc
+#
+#   Device: mlx5_6:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 600 nsec + 1 * N
+#             overhead: 75 nsec
+#            put_short: <= 124
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 123
+#             am_bcopy: <= 8191
+#             am_zcopy: <= 8191, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 127
+#               domain: device
+#           atomic_add: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 19 bytes
+#           ep address: 4 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: rc_mlx5
+#
+#   Device: mlx5_6:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 600 nsec + 1 * N
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 186
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 19 bytes
+#           ep address: 7 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: dc_mlx5
+#
+#   Device: mlx5_6:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 660 nsec
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 138
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 5 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: ud
+#
+#   Device: mlx5_6:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 610 nsec
+#             overhead: 105 nsec
+#             am_short: <= 116
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 3984
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: ud_mlx5
+#
+#   Device: mlx5_6:1
+#
+#      capabilities:
+#            bandwidth: 11794.23 MB/sec
+#              latency: 610 nsec
+#             overhead: 80 nsec
+#             am_short: <= 180
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 132
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: cm
+#
+#   Device: mlx5_6:1
+#
+#      capabilities:
+#            bandwidth: 9329.42 MB/sec
+#              latency: 600 nsec
+#             overhead: 1200 nsec
+#             am_bcopy: <= 214
+#           connection: to iface
+#             priority: 38
+#       device address: 19 bytes
+#        iface address: 4 bytes
+#       error handling: none
+#
+#
+# Memory domain: ib/mlx5_1
+#            component: ib
+#             register: unlimited, cost: 90 nsec
+#           remote key: 24 bytes
+#           local memory handle is required for zcopy
+#
+#   Transport: rc
+#
+#   Device: mlx5_1:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 700 nsec + 1 * N
+#             overhead: 75 nsec
+#            put_short: <= 124
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 123
+#             am_bcopy: <= 8191
+#             am_zcopy: <= 8191, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 127
+#               domain: device
+#           atomic_add: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 3 bytes
+#           ep address: 4 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: rc_mlx5
+#
+#   Device: mlx5_1:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 700 nsec + 1 * N
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 186
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 3 bytes
+#           ep address: 7 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: dc_mlx5
+#
+#   Device: mlx5_1:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 760 nsec
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 138
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 5 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: ud
+#
+#   Device: mlx5_1:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 710 nsec
+#             overhead: 105 nsec
+#             am_short: <= 116
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 3984
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: ud_mlx5
+#
+#   Device: mlx5_1:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 710 nsec
+#             overhead: 80 nsec
+#             am_short: <= 180
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 132
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: cm
+#
+#   Device: mlx5_1:1
+#
+#      capabilities:
+#            bandwidth: 5088.78 MB/sec
+#              latency: 700 nsec
+#             overhead: 1200 nsec
+#             am_bcopy: <= 214
+#           connection: to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 4 bytes
+#       error handling: none
+#
+#
+# Memory domain: ib/mlx5_3
+#            component: ib
+#             register: unlimited, cost: 90 nsec
+#           remote key: 24 bytes
+#           local memory handle is required for zcopy
+#
+#   Transport: rc
+#
+#   Device: mlx5_3:1
+#
+#      capabilities:
+#            bandwidth: 11664.63 MB/sec
+#              latency: 800 nsec + 1 * N
+#             overhead: 75 nsec
+#            put_short: <= 124
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 123
+#             am_bcopy: <= 8191
+#             am_zcopy: <= 8191, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 127
+#               domain: device
+#           atomic_add: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 17 bytes
+#           ep address: 4 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: rc_mlx5
+#
+#   Device: mlx5_3:1
+#
+#      capabilities:
+#            bandwidth: 11664.63 MB/sec
+#              latency: 800 nsec + 1 * N
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 186
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 17 bytes
+#           ep address: 7 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: dc_mlx5
+#
+#   Device: mlx5_3:1
+#
+#      capabilities:
+#            bandwidth: 11664.63 MB/sec
+#              latency: 860 nsec
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 138
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 38
+#       device address: 17 bytes
+#        iface address: 5 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: ud
+#
+#   Device: mlx5_3:1
+#
+#      capabilities:
+#            bandwidth: 11664.63 MB/sec
+#              latency: 810 nsec
+#             overhead: 105 nsec
+#             am_short: <= 116
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 3984
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 17 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: ud_mlx5
+#
+#   Device: mlx5_3:1
+#
+#      capabilities:
+#            bandwidth: 11664.63 MB/sec
+#              latency: 810 nsec
+#             overhead: 80 nsec
+#             am_short: <= 180
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 132
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 17 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+# Memory domain: ib/mlx5_5
+#            component: ib
+#             register: unlimited, cost: 90 nsec
+#           remote key: 24 bytes
+#           local memory handle is required for zcopy
+#
+#   Transport: rc
+#
+#   Device: mlx5_5:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 700 nsec + 1 * N
+#             overhead: 75 nsec
+#            put_short: <= 124
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 123
+#             am_bcopy: <= 8191
+#             am_zcopy: <= 8191, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 127
+#               domain: device
+#           atomic_add: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 3 bytes
+#           ep address: 4 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: rc_mlx5
+#
+#   Device: mlx5_5:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 700 nsec + 1 * N
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 186
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 3 bytes
+#           ep address: 7 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: dc_mlx5
+#
+#   Device: mlx5_5:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 760 nsec
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 138
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 5 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: ud
+#
+#   Device: mlx5_5:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 710 nsec
+#             overhead: 105 nsec
+#             am_short: <= 116
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 3984
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: ud_mlx5
+#
+#   Device: mlx5_5:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 710 nsec
+#             overhead: 80 nsec
+#             am_short: <= 180
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 132
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: cm
+#
+#   Device: mlx5_5:1
+#
+#      capabilities:
+#            bandwidth: 5088.78 MB/sec
+#              latency: 700 nsec
+#             overhead: 1200 nsec
+#             am_bcopy: <= 214
+#           connection: to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 4 bytes
+#       error handling: none
+#
+#
+# Memory domain: ib/mlx5_7
+#            component: ib
+#             register: unlimited, cost: 90 nsec
+#           remote key: 24 bytes
+#           local memory handle is required for zcopy
+#
+#   Transport: rc
+#
+#   Device: mlx5_7:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 700 nsec + 1 * N
+#             overhead: 75 nsec
+#            put_short: <= 124
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 123
+#             am_bcopy: <= 8191
+#             am_zcopy: <= 8191, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 127
+#               domain: device
+#           atomic_add: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 3 bytes
+#           ep address: 4 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: rc_mlx5
+#
+#   Device: mlx5_7:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 700 nsec + 1 * N
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 186
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to ep
+#             priority: 38
+#       device address: 3 bytes
+#           ep address: 7 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: dc_mlx5
+#
+#   Device: mlx5_7:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 760 nsec
+#             overhead: 40 nsec
+#            put_short: <= 2K
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 8 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 4K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 8 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 4K
+#             am_short: <= 2046
+#             am_bcopy: <= 8190
+#             am_zcopy: <= 8190, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 138
+#               domain: device
+#           atomic_add: 32, 64 bit
+#           atomic_and: 32, 64 bit
+#            atomic_or: 32, 64 bit
+#           atomic_xor: 32, 64 bit
+#          atomic_fadd: 32, 64 bit
+#          atomic_fand: 32, 64 bit
+#           atomic_for: 32, 64 bit
+#          atomic_fxor: 32, 64 bit
+#          atomic_swap: 32, 64 bit
+#         atomic_cswap: 32, 64 bit
+#           connection: to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 5 bytes
+#       error handling: buffer (zcopy), remote access, peer failure
+#
+#
+#   Transport: ud
+#
+#   Device: mlx5_7:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 710 nsec
+#             overhead: 105 nsec
+#             am_short: <= 116
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 3984
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: ud_mlx5
+#
+#   Device: mlx5_7:1
+#
+#      capabilities:
+#            bandwidth: 6433.22 MB/sec
+#              latency: 710 nsec
+#             overhead: 80 nsec
+#             am_short: <= 180
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 3 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 132
+#           connection: to ep, to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: cm
+#
+#   Device: mlx5_7:1
+#
+#      capabilities:
+#            bandwidth: 5088.78 MB/sec
+#              latency: 700 nsec
+#             overhead: 1200 nsec
+#             am_bcopy: <= 214
+#           connection: to iface
+#             priority: 38
+#       device address: 3 bytes
+#        iface address: 4 bytes
+#       error handling: none
+#
+#
+# Memory domain: ib/mlx4_0
+#            component: ib
+#             register: unlimited, cost: 90 nsec
+#           remote key: 24 bytes
+#           local memory handle is required for zcopy
+#
+#   Transport: rc
+#
+#   Device: mlx4_0:1
+#
+#      capabilities:
+#            bandwidth: 1166.46 MB/sec
+#              latency: 1500 nsec + 1 * N
+#             overhead: 75 nsec
+#            put_short: <= 88
+#            put_bcopy: <= 8K
+#            put_zcopy: <= 1G, up to 6 iov
+#  put_opt_zcopy_align: <= 512
+#        put_align_mtu: <= 2K
+#            get_bcopy: <= 8K
+#            get_zcopy: 65..1G, up to 6 iov
+#  get_opt_zcopy_align: <= 512
+#        get_align_mtu: <= 2K
+#             am_short: <= 87
+#             am_bcopy: <= 8191
+#             am_zcopy: <= 8191, up to 5 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 2K
+#            am header: <= 127
+#               domain: device
+#           atomic_add: 64 bit
+#          atomic_fadd: 64 bit
+#          atomic_swap: 64 bit
+#         atomic_cswap: 64 bit
+#           connection: to ep
+#             priority: 10
+#       device address: 17 bytes
+#           ep address: 4 bytes
+#       error handling: peer failure
+#
+#
+#   Transport: ud
+#
+#   Device: mlx4_0:1
+#
+#      capabilities:
+#            bandwidth: 1166.46 MB/sec
+#              latency: 1510 nsec
+#             overhead: 105 nsec
+#             am_short: <= 172
+#             am_bcopy: <= 4088
+#             am_zcopy: <= 4088, up to 7 iov
+#   am_opt_zcopy_align: <= 512
+#         am_align_mtu: <= 4K
+#            am header: <= 3984
+#           connection: to ep, to iface
+#             priority: 10
+#       device address: 17 bytes
+#        iface address: 3 bytes
+#           ep address: 6 bytes
+#       error handling: peer failure
+#
+#
+# Memory domain: rdmacm
+#            component: rdmacm
+#           supports client-server connection establishment via sockaddr
+#   < no supported devices found >

@@ -11,6 +11,8 @@ module load nccl/2.4.8
 module load openmpi/4.0.1-ucx-1.6
 module load pytorch/v1.3.1-gpu
 
+ucx_info -d > ucx_info.txt
+
 export UCX_LOG_LEVEL=debug
 export UCX_NET_DEVICES=mlx5_0:1,mlx5_2:1,mlx5_4:1,mlx5_6:1
 export OMPI_MCA_btl_smcuda_use_cuda_ipc=0
