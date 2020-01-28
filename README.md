@@ -4,7 +4,7 @@ SLURM batch script: `run.sh`
 
 Sample job output with debug-level UCX logging: `slurm-405737.out`
 
-Output of `ucx\_info -d`: `ucx\_info.txt`
+Output of `ucx_info -d`: `ucx_info.txt`
 
 Output of `ompi_info`: `ompi_info.txt`
 
