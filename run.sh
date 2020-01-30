@@ -19,4 +19,8 @@ export OMPI_MCA_btl_smcuda_use_cuda_ipc=0
 export OMPI_MCA_btl=^openib,tcp
 export OMPI_MCA_osc=ucx
 
+# Try preload UCX 1.7
+export LD_LIBRARY_PATH=/global/cfs/cdirs/nstaff/sfarrell/software/ucx-1.7.0/lib:$LD_LIBRARY_PATH
+export LD_PRELOAD=/global/cfs/cdirs/nstaff/sfarrell/software/ucx-1.7.0/lib/libucp.so
+
 srun -n 2 -c 10 -u -l python test_mpi_cuda.py
