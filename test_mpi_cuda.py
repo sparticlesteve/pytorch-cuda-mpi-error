@@ -6,6 +6,11 @@ ranks_per_node = 8
 shape = 2**17
 dtype = torch.float32
 
+# Test UCX workaround to initialize cuda context before MPI init
+import os
+local_rank = os.getenv('OMPI_COMM_WORLD_LOCAL_RANK')
+device = torch.device('cuda', local_rank)
+
 # Initialize MPI
 dist.init_process_group(backend='mpi')
 rank, n_ranks = dist.get_rank(), dist.get_world_size()
@@ -17,7 +22,7 @@ local_rank = rank % ranks_per_node
 #    _ = torch.randn(1).to(torch.device('cuda', i))
 
 # Select our gpu
-device = torch.device('cuda', local_rank)
+#device = torch.device('cuda', local_rank)
 print('MPI rank', rank, 'size', n_ranks, 'device', device)
 
 # Allocate a tensor on the gpu
