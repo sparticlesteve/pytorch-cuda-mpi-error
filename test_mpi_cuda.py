@@ -8,7 +8,7 @@ dtype = torch.float32
 
 # Test UCX workaround to initialize cuda context before MPI init
 import os
-local_rank = os.getenv('OMPI_COMM_WORLD_LOCAL_RANK')
+local_rank = int(os.getenv('SLURM_LOCALID'))
 device = torch.device('cuda', local_rank)
 
 # Initialize MPI
