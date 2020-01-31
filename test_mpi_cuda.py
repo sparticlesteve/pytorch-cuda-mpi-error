@@ -11,15 +11,15 @@ import os
 local_rank = int(os.getenv('SLURM_LOCALID'))
 device = torch.device('cuda', local_rank)
 
+# Allocate a small tensor on every gpu from every rank.
+# This is an attempt to force creation of all device contexts.
+for i in range(ranks_per_node):
+    _ = torch.randn(1).to(torch.device('cuda', i))
+
 # Initialize MPI
 dist.init_process_group(backend='mpi')
 rank, n_ranks = dist.get_rank(), dist.get_world_size()
 local_rank = rank % ranks_per_node
-
-# Allocate a small tensor on every gpu from every rank.
-# This is an attempt to force creation of all device contexts.
-#for i in range(ranks_per_node):
-#    _ = torch.randn(1).to(torch.device('cuda', i))
 
 # Select our gpu
 #device = torch.device('cuda', local_rank)
