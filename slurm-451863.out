@@ -1,0 +1,1355 @@
+0: [1581715401.704954] [cgpu12:42393:0]          debug.c:1076 UCX  DEBUG using signal stack 0x2aaaad30f000 size 141824
+1: [1581715401.704927] [cgpu12:42394:0]          debug.c:1076 UCX  DEBUG using signal stack 0x2aaaad30f000 size 141824
+0: [1581715401.705421] [cgpu12:42393:0]           init.c:89   UCX  DEBUG /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucs.so.0 loaded at 0x2aab19eef000
+1: [1581715401.705419] [cgpu12:42394:0]           init.c:89   UCX  DEBUG /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucs.so.0 loaded at 0x2aab19eef000
+0: [1581715401.705448] [cgpu12:42393:0]           init.c:90   UCX  DEBUG cmd line: /usr/common/software/pytorch/v1.3.1-gpu/bin/python test_mpi_cuda.py 
+1: [1581715401.705448] [cgpu12:42394:0]           init.c:90   UCX  DEBUG cmd line: /usr/common/software/pytorch/v1.3.1-gpu/bin/python test_mpi_cuda.py 
+0: [1581715401.715031] [cgpu12:42393:0]          debug.c:1076 UCX  DEBUG using signal stack 0x2aaaad332000 size 141824
+0: [1581715401.715075] [cgpu12:42393:0]           init.c:89   UCX  DEBUG /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucs.so.0 loaded at 0x2aab23b58000
+0: [1581715401.715093] [cgpu12:42393:0]           init.c:90   UCX  DEBUG cmd line: /usr/common/software/pytorch/v1.3.1-gpu/bin/python test_mpi_cuda.py 
+1: [1581715401.715022] [cgpu12:42394:0]          debug.c:1076 UCX  DEBUG using signal stack 0x2aaaad332000 size 141824
+1: [1581715401.715074] [cgpu12:42394:0]           init.c:89   UCX  DEBUG /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucs.so.0 loaded at 0x2aab1bb57000
+1: [1581715401.715095] [cgpu12:42394:0]           init.c:90   UCX  DEBUG cmd line: /usr/common/software/pytorch/v1.3.1-gpu/bin/python test_mpi_cuda.py 
+0: [1581715401.719841] [cgpu12:42393:0]    ucp_context.c:1081 UCX  DEBUG Estimated number of endpoints is 2
+0: [1581715401.719851] [cgpu12:42393:0]    ucp_context.c:1117 UCX  DEBUG allocation method[0] is md 'sysv'
+0: [1581715401.719854] [cgpu12:42393:0]    ucp_context.c:1117 UCX  DEBUG allocation method[1] is md 'posix'
+0: [1581715401.719858] [cgpu12:42393:0]    ucp_context.c:1129 UCX  DEBUG allocation method[2] is 'huge'
+0: [1581715401.719860] [cgpu12:42393:0]    ucp_context.c:1129 UCX  DEBUG allocation method[3] is 'thp'
+0: [1581715401.719862] [cgpu12:42393:0]    ucp_context.c:1117 UCX  DEBUG allocation method[4] is md '*'
+0: [1581715401.719864] [cgpu12:42393:0]    ucp_context.c:1129 UCX  DEBUG allocation method[5] is 'mmap'
+0: [1581715401.719865] [cgpu12:42393:0]    ucp_context.c:1129 UCX  DEBUG allocation method[6] is 'heap'
+0: [1581715401.719896] [cgpu12:42393:0]         module.c:61   UCX  DEBUG ucs library path: /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucs.so.0
+0: [1581715401.719909] [cgpu12:423
+0: 93:0]         module.c:245  UCX  DEBUG loading modules for uct
+1: [1581715401.719835] [cgpu12:42394:0]    ucp_context.c:1081 UCX  DEBUG Estimated number of endpoints is 2
+1: [1581715401.719845] [cgpu12:42394:0]    ucp_context.c:1117 UCX  DEBUG allocation method[0] is md 'sysv'
+1: [1581715401.719847] [cgpu12:42394:0]    ucp_context.c:1117 UCX  DEBUG allocation method[1] is md 'posix'
+1: [1581715401.719852] [cgpu12:42394:0]    ucp_context.c:1129 UCX  DEBUG allocation method[2] is 'huge'
+1: [1581715401.719854] [cgpu12:42394:0]    ucp_context.c:1129 UCX  DEBUG allocation method[3] is 'thp'
+1: [1581715401.719856] [cgpu12:42394:0]    ucp_context.c:1117 UCX  DEBUG allocation method[4] is md '*'
+1: [1581715401.719858] [cgpu12:42394:0]    ucp_context.c:1129 UCX  DEBUG allocation method[5] is 'mmap'
+1: [1581715401.719859] [cgpu12:42394:0]    ucp_context.c:1129 UCX  DEBUG allocation method[6] is 'heap'
+1: [1581715401.719872] [cgpu12:42394:0]         module.c:61   UCX  DEBUG ucs library path: /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucs.so.0
+1: [1581715401.719881] [cgpu12:423
+1: 94:0]         module.c:245  UCX  DEBUG loading modules for uct
+1: [1581715401.720301] [cgpu12:42394:0]         module.c:245  UCX  DEBUG loading modules for uct_cuda
+0: [1581715401.720372] [cgpu12:42393:0]         module.c:245  UCX  DEBUG loading modules for uct_cuda
+1: [1581715401.720847] [cgpu12:42394:0]         module.c:161  UCX  DEBUG ignoring 'ucs_module_global_init' (0x2aab1c5ef220) from libuct_cuda.so.0 (0x2aab1c5eb000), expected in libuct_cuda_gdrcopy.so.0 (2aab1c7f9000)
+0: [1581715401.720938] [cgpu12:42393:0]         module.c:161  UCX  DEBUG ignoring 'ucs_module_global_init' (0x2aab245f0220) from libuct_cuda.so.0 (0x2aab245ec000), expected in libuct_cuda_gdrcopy.so.0 (2aab247fa000)
+1: [1581715402.236932] [cgpu12:42394:0]         module.c:245  UCX  DEBUG loading modules for uct_ib
+0: [1581715402.238443] [cgpu12:42393:0]         module.c:245  UCX  DEBUG loading modules for uct_ib
+1: [1581715402.239710] [cgpu12:42394:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=.) failed: No such device
+1: [1581715402.239727] [cgpu12:42394:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=..) failed: No such device
+1: [1581715402.239734] [cgpu12:42394:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=ib2) failed: Cannot assign requested address
+1: [1581715402.239747] [cgpu12:42394:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=ib0) failed: Cannot assign requested address
+1: [1581715402.239760] [cgpu12:42394:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=eth1) failed: Cannot assign requested address
+1: [1581715402.239775] [cgpu12:42394:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=ib5) failed: Cannot assign requested address
+1: [1581715402.239781] [cgpu12:42394:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=ib3) failed: Cannot assign requested address
+1: [1581715402.239800] [cgpu12:42394:0]           sock.c:32   UCX  DEBUG ioc
+1: tl(req=35093, ifr_name=eth2) failed: Cannot assign requested address
+1: [1581715402.239813] [cgpu12:42394:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=eth0) failed: Cannot assign requested address
+1: [1581715402.239837] [cgpu12:42394:0]    ucp_context.c:964  UCX  DEBUG closing md tcp because it has no selected transport resources
+1: [1581715402.239895] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.239957] [cgpu12:42394:0]         module.c:245  UCX  DEBUG loading modules for ucm
+0: [1581715402.240657] [cgpu12:42393:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=.) failed: No such device
+0: [1581715402.240671] [cgpu12:42393:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=..) failed: No such device
+0: [1581715402.240678] [cgpu12:42393:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=ib2) failed: Cannot assign requested address
+0: [1581715402.240691] [cgpu12:42393:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=ib0) failed: Cannot assign requested address
+0: [1581715402.240703] [cgpu12:42393:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=eth1) failed: Cannot assign requested address
+0: [1581715402.240714] [cgpu12:42393:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=ib5) failed: Cannot assign requested address
+0: [1581715402.240727] [cgpu12:42393:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=ib3) failed: Cannot assign requested address
+0: [1581715402.240745] [cgpu12:42393:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=eth2) failed: Cannot assign requested address
+0: [1581715402.240757] [cgpu12:42393:0]           sock.c:32   UCX  DEBUG ioctl(req=35093, ifr_name=eth0) failed: Cannot assign requested address
+0: [1581715402.240771] [cgpu12:42393:0]    ucp_context.c:964  UCX  DEBUG closing md tcp because it has no selected transport resources
+0: [1581715402.240819] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.240867] [cgpu12:42393:0]         module.c:245  UCX  DEBUG loading modules for ucm
+0: [1581715402.273018] [cgpu12:42393:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_0' (InfiniBand channel adapter) with 1 ports
+1: [1581715402.273015] [cgpu12:42394:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_0' (InfiniBand channel adapter) with 1 ports
+0: [1581715402.274503] [cgpu12:42393:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x2ed7, max_inline_klm_list 20
+0: [1581715402.274518] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.274507] [cgpu12:42394:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x2ed8, max_inline_klm_list 20
+1: [1581715402.274521] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.274708] [cgpu12:42393:0]          ib_md.c:1504 UCX  DEBUG mlx5_0: using registration cache
+1: [1581715402.274706] [cgpu12:42394:0]          ib_md.c:1504 UCX  DEBUG mlx5_0: using registration cache
+0: [1581715402.274728] [cgpu12:42393:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_0/device/current_link_width
+1: [1581715402.274724] [cgpu12:42394:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_0/device/current_link_width
+0: [1581715402.274757] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_0:1
+1: [1581715402.274756] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_0:1
+1: [1581715402.274764] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_0:1
+0: [1581715402.274765] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_0:1
+0: [1581715402.274775] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_0:1
+1: [1581715402.274774] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_0:1
+1: [1581715402.274780] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_0:1
+0: [1581715402.274782] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_0:1
+0: [1581715402.274786] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_0:1
+1: [1581715402.274785] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_0:1
+0: [1581715402.274858] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_0:1
+1: [1581715402.274857] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_0:1
+0: [1581715402.277459] [cgpu12:42393:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_2' (InfiniBand channel adapter) with 1 ports
+1: [1581715402.277465] [cgpu12:42394:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_2' (InfiniBand channel adapter) with 1 ports
+0: [1581715402.279037] [cgpu12:42393:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x2ec7, max_inline_klm_list 20
+0: [1581715402.279043] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.279067] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rcache_inv_mp: allocated chunk 0x2aab127bd008 of 36856 bytes with 1151 elements
+1: [1581715402.279033] [cgpu12:42394:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x2ec8, max_inline_klm_list 20
+1: [1581715402.279039] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.279061] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rcache_inv_mp: allocated chunk 0x2aab127bc008 of 36856 bytes with 1151 elements
+0: [1581715402.279122] [cgpu12:42393:0]          ib_md.c:1504 UCX  DEBUG mlx5_2: using registration cache
+1: [1581715402.279122] [cgpu12:42394:0]          ib_md.c:1504 UCX  DEBUG mlx5_2: using registration cache
+0: [1581715402.279142] [cgpu12:42393:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_2/device/current_link_width
+1: [1581715402.279140] [cgpu12:42394:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_2/device/current_link_width
+1: [1581715402.279146] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_2:1
+0: [1581715402.279149] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_2:1
+0: [1581715402.279153] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_2:1
+0: [1581715402.279158] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_2:1
+1: [1581715402.279150] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_2:1
+1: [1581715402.279153] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_2:1
+1: [1581715402.279156] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_2:1
+1: [1581715402.279159] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_2:1
+0: [1581715402.279161] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_2:1
+0: [1581715402.279165] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_2:1
+0: [1581715402.279224] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_2:1
+1: [1581715402.279219] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_2:1
+0: [1581715402.281901] [cgpu12:42393:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_4' (InfiniBand channel adapter) with 1 ports
+1: [1581715402.281848] [cgpu12:42394:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_4' (InfiniBand channel adapter) with 1 ports
+0: [1581715402.283407] [cgpu12:42393:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x2eb0, max_inline_klm_list 20
+0: [1581715402.283412] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.283423] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rcache_inv_mp: allocated chunk 0x2aab127d6008 of 36856 bytes with 1151 elements
+1: [1581715402.283413] [cgpu12:42394:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x2eaf, max_inline_klm_list 20
+1: [1581715402.283419] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.283429] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rcache_inv_mp: allocated chunk 0x2aab127d5008 of 36856 bytes with 1151 elements
+0: [1581715402.283472] [cgpu12:42393:0]          ib_md.c:1504 UCX  DEBUG mlx5_4: using registration cache
+0: [1581715402.283484] [cgpu12:42393:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_4/device/current_link_width
+0: [1581715402.283490] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_4:1
+0: [1581715402.283494] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_4:1
+0: [1581715402.283497] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_4:1
+1: [1581715402.283484] [cgpu12:42394:0]          ib_md.c:1504 UCX  DEBUG mlx5_4: using registration cache
+1: [1581715402.283496] [cgpu12:42394:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_4/device/current_link_width
+1: [1581715402.283501] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_4:1
+1: [1581715402.283504] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_4:1
+0: [1581715402.283500] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_4:1
+0: [1581715402.283504] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_4:1
+1: [1581715402.283506] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_4:1
+1: [1581715402.283509] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_4:1
+1: [1581715402.283512] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_4:1
+0: [1581715402.283582] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_4:1
+1: [1581715402.283588] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_4:1
+0: [1581715402.286281] [cgpu12:42393:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_6' (InfiniBand channel adapter) with 1 ports
+1: [1581715402.286275] [cgpu12:42394:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_6' (InfiniBand channel adapter) with 1 ports
+0: [1581715402.287872] [cgpu12:42393:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x2eb0, max_inline_klm_list 20
+0: [1581715402.287877] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.287888] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rcache_inv_mp: allocated chunk 0x2aab127ef008 of 36856 bytes with 1151 elements
+1: [1581715402.287879] [cgpu12:42394:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x2eaf, max_inline_klm_list 20
+1: [1581715402.287884] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.287893] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rcache_inv_mp: allocated chunk 0x2aab127ee008 of 36856 bytes with 1151 elements
+0: [1581715402.287954] [cgpu12:42393:0]          ib_md.c:1504 UCX  DEBUG mlx5_6: using registration cache
+0: [1581715402.287967] [cgpu12:42393:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_6/device/current_link_width
+1: [1581715402.287964] [cgpu12:42394:0]          ib_md.c:1504 UCX  DEBUG mlx5_6: using registration cache
+1: [1581715402.287976] [cgpu12:42394:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_6/device/current_link_width
+0: [1581715402.287974] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_6:1
+0: [1581715402.287978] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_6:1
+0: [1581715402.287982] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_6:1
+1: [1581715402.287981] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_6:1
+1: [1581715402.287984] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_6:1
+1: [1581715402.287988] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_6:1
+0: [1581715402.287985] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_6:1
+0: [1581715402.287989] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_6:1
+1: [1581715402.287990] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_6:1
+1: [1581715402.287993] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_6:1
+0: [1581715402.288092] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_6:1
+1: [1581715402.288097] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_6:1
+0: [1581715402.290727] [cgpu12:42393:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_1' (InfiniBand channel adapter) with 1 ports
+1: [1581715402.290757] [cgpu12:42394:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_1' (InfiniBand channel adapter) with 1 ports
+0: [1581715402.291892] [cgpu12:42393:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x99f, max_inline_klm_list 20
+0: [1581715402.291898] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.291896] [cgpu12:42394:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x9a0, max_inline_klm_list 20
+1: [1581715402.291901] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.291909] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rcache_inv_mp: allocated chunk 0x2aab12808008 of 36856 bytes with 1151 elements
+1: [1581715402.291911] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rcache_inv_mp: allocated chunk 0x2aab12807008 of 36856 bytes with 1151 elements
+0: [1581715402.291961] [cgpu12:42393:0]          ib_md.c:1504 UCX  DEBUG mlx5_1: using registration cache
+0: [1581715402.291974] [cgpu12:42393:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_1/device/current_link_width
+1: [1581715402.291971] [cgpu12:42394:0]          ib_md.c:1504 UCX  DEBUG mlx5_1: using registration cache
+0: [1581715402.291980] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_1:1
+0: [1581715402.291984] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_1:1
+0: [1581715402.291987] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_1:1
+1: [1581715402.291983] [cgpu12:42394:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_1/device/current_link_width
+1: [1581715402.291988] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_1:1
+0: [1581715402.291992] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_1:1
+0: [1581715402.291996] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_1:1
+1: [1581715402.291993] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_1:1
+1: [1581715402.291997] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_1:1
+1: [1581715402.291999] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_1:1
+1: [1581715402.292002] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_1:1
+0: [1581715402.292034] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_1:1
+0: [1581715402.292045] [cgpu12:42393:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx5_1 because it has no selected transport resources
+1: [1581715402.292041] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_1:1
+1: [1581715402.292047] [cgpu12:42394:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx5_1 because it has no selected transport resources
+0: [1581715402.292071] [cgpu12:42393:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+1: [1581715402.292072] [cgpu12:42394:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+1: [1581715402.292947] [cgpu12:42394:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx5_1
+0: [1581715402.293025] [cgpu12:42393:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx5_1
+0: [1581715402.296175] [cgpu12:42393:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_3' (InfiniBand channel adapter) with 1 ports
+1: [1581715402.296177] [cgpu12:42394:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_3' (InfiniBand channel adapter) with 1 ports
+0: [1581715402.297213] [cgpu12:42393:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0xac0, max_inline_klm_list 20
+0: [1581715402.297218] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.297211] [cgpu12:42394:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0xac1, max_inline_klm_list 20
+1: [1581715402.297217] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.297257] [cgpu12:42393:0]          ib_md.c:1504 UCX  DEBUG mlx5_3: using registration cache
+1: [1581715402.297254] [cgpu12:42394:0]          ib_md.c:1504 UCX  DEBUG mlx5_3: using registration cache
+0: [1581715402.297274] [cgpu12:42393:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_3/device/current_link_width
+0: [1581715402.297288] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_3:1
+0: [1581715402.297291] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_3:1
+1: [1581715402.297277] [cgpu12:42394:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_3/device/current_link_width
+1: [1581715402.297288] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_3:1
+1: [1581715402.297291] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_3:1
+1: [1581715402.297295] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_3:1
+1: [1581715402.297297] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_3:1
+0: [1581715402.297294] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_3:1
+0: [1581715402.297297] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_3:1
+0: [1581715402.297300] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_3:1
+1: [1581715402.297301] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_3:1
+0: [1581715402.297372] [cgpu12:42393:0]      ib_device.c:421  UCX  DEBUG mlx5_3:1 is not IB link layer
+0: [1581715402.297374] [cgpu12:42393:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0x20
+1: [1581715402.297371] [cgpu12:42394:0]      ib_device.c:421  UCX  DEBUG mlx5_3:1 is not IB link layer
+1: [1581715402.297374] [cgpu12:42394:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0x20
+0: [1581715402.297382] [cgpu12:42393:0]         uct_md.c:169  UCX  DEBUG Failed to query cm resources: No such device
+0: [1581715402.297387] [cgpu12:42393:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx5_3 because it has no selected transport resources
+0: [1581715402.297391] [cgpu12:42393:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+1: [1581715402.297381] [cgpu12:42394:0]         uct_md.c:169  UCX  DEBUG Failed to query cm resources: No such device
+1: [1581715402.297387] [cgpu12:42394:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx5_3 because it has no selected transport resources
+1: [1581715402.297391] [cgpu12:42394:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+1: [1581715402.298238] [cgpu12:42394:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx5_3
+1: [1581715402.301150] [cgpu12:42394:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_5' (InfiniBand channel adapter) with 1 ports
+1: [1581715402.302291] [cgpu12:42394:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0xb22, max_inline_klm_list 20
+1: [1581715402.302319] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.302361] [cgpu12:42394:0]          ib_md.c:1504 UCX  DEBUG mlx5_5: using registration cache
+1: [1581715402.302372] [cgpu12:42394:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_5/device/current_link_width
+1: [1581715402.302379] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_5:1
+1: [1581715402.302383] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_5:1
+1: [1581715402.302387] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_5:1
+1: [1581715402.302391] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_5:1
+1: [1581715402.302394] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_5:1
+1: [1581715402.302453] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_5:1
+1: [1581715402.302460] [cgpu12:42394:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx5_5 because it has no selected transport resources
+1: [1581715402.302463] [cgpu12:42394:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+1: [1581715402.303359] [cgpu12:42394:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx5_5
+1: [1581715402.306307] [cgpu12:42394:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_7' (InfiniBand channel adapter) with 1 ports
+1: [1581715402.307483] [cgpu12:42394:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x19a78, max_inline_klm_list 20
+1: [1581715402.307488] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.307529] [cgpu12:42394:0]          ib_md.c:1504 UCX  DEBUG mlx5_7: using registration cache
+1: [1581715402.307548] [cgpu12:42394:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_7/device/current_link_width
+1: [1581715402.307554] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_7:1
+1: [1581715402.307558] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_7:1
+1: [1581715402.307561] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_7:1
+1: [1581715402.307564] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_7:1
+1: [1581715402.307567] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_7:1
+1: [1581715402.307641] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_7:1
+1: [1581715402.307647] [cgpu12:42394:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx5_7 because it has no selected transport resources
+1: [1581715402.307651] [cgpu12:42394:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+1: [1581715402.308546] [cgpu12:42394:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx5_7
+0: [1581715402.310115] [cgpu12:42393:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx5_3
+1: [1581715402.310859] [cgpu12:42394:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx4_0' (InfiniBand channel adapter) with 1 ports
+1: [1581715402.310873] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+1: [1581715402.310913] [cgpu12:42394:0]          ib_md.c:1504 UCX  DEBUG mlx4_0: using registration cache
+1: [1581715402.310924] [cgpu12:42394:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx4_0/device/current_link_width
+1: [1581715402.310930] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx4_0:1
+1: [1581715402.310934] [cgpu12:42394:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0x4
+1: [1581715402.310936] [cgpu12:42394:0]         uct_md.c:169  UCX  DEBUG Failed to query rc_mlx5 resources: No such device
+1: [1581715402.310939] [cgpu12:42394:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0xc4
+1: [1581715402.310942] [cgpu12:42394:0]         uct_md.c:169  UCX  DEBUG Failed to query dc_mlx5 resources: No such device
+1: [1581715402.310946] [cgpu12:42394:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx4_0:1
+1: [1581715402.310948] [cgpu12:42394:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0x4
+1: [1581715402.310951] [cgpu12:42394:0]         uct_md.c:169  UCX  DEBUG Failed to query ud_mlx5 resources: No such device
+1: [1581715402.310966] [cgpu12:42394:0]      ib_device.c:421  UCX  DEBUG mlx4_0:1 is not IB link layer
+1: [1581715402.310969] [cgpu12:42394:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0x20
+1: [1581715402.310972] [cgpu12:42394:0]         uct_md.c:169  UCX  DEBUG Failed to query cm resources: No such device
+1: [1581715402.310976] [cgpu12:42394:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx4_0 because it has no selected transport resources
+1: [1581715402.310980] [cgpu12:42394:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+1: [1581715402.310984] [cgpu12:42394:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx4_0
+1: [1581715402.311104] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ucp_rkeys: align 64, maxelems 4294967295, elemsize 144
+1: [1581715402.311108] [cgpu12:42394:0]    ucp_context.c:1243 UCX  DEBUG created ucp context 0x5555574445e0 [11 mds 31 tls] features 0x1 tl bitmap 0x7fffffff
+0: [1581715402.313218] [cgpu12:42393:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_5' (InfiniBand channel adapter) with 1 ports
+0: [1581715402.314280] [cgpu12:42393:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0xb23, max_inline_klm_list 20
+0: [1581715402.314286] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.314324] [cgpu12:42393:0]          ib_md.c:1504 UCX  DEBUG mlx5_5: using registration cache
+0: [1581715402.314334] [cgpu12:42393:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_5/device/current_link_width
+0: [1581715402.314340] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_5:1
+0: [1581715402.314344] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_5:1
+0: [1581715402.314348] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_5:1
+0: [1581715402.314351] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_5:1
+0: [1581715402.314354] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_5:1
+0: [1581715402.314405] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_5:1
+0: [1581715402.314411] [cgpu12:42393:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx5_5 because it has no selected transport resources
+0: [1581715402.314414] [cgpu12:42393:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+0: [1581715402.315209] [cgpu12:42393:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx5_5
+0: [1581715402.318048] [cgpu12:42393:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx5_7' (InfiniBand channel adapter) with 1 ports
+0: [1581715402.319120] [cgpu12:42393:0]          ib_md.c:375  UCX  DEBUG initialized UMR QP 0x19a79, max_inline_klm_list 20
+0: [1581715402.319126] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.319166] [cgpu12:42393:0]          ib_md.c:1504 UCX  DEBUG mlx5_7: using registration cache
+0: [1581715402.319176] [cgpu12:42393:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx5_7/device/current_link_width
+0: [1581715402.319182] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx5_7:1
+0: [1581715402.319185] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc_mlx5 mlx5_7:1
+0: [1581715402.319189] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl dc_mlx5 mlx5_7:1
+0: [1581715402.319192] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx5_7:1
+0: [1581715402.319195] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud_mlx5 mlx5_7:1
+0: [1581715402.319265] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl cm mlx5_7:1
+0: [1581715402.319271] [cgpu12:42393:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx5_7 because it has no selected transport resources
+0: [1581715402.319274] [cgpu12:42393:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+0: [1581715402.320128] [cgpu12:42393:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx5_7
+0: [1581715402.322358] [cgpu12:42393:0]      ib_device.c:319  UCX  DEBUG initialized device 'mlx4_0' (InfiniBand channel adapter) with 1 ports
+0: [1581715402.322372] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rcache_inv_mp: align 1, maxelems 4294967295, elemsize 32
+0: [1581715402.322408] [cgpu12:42393:0]          ib_md.c:1504 UCX  DEBUG mlx4_0: using registration cache
+0: [1581715402.322420] [cgpu12:42393:0]          ib_md.c:1664 UCX  DEBUG failed to read file: /sys/class/infiniband/mlx4_0/device/current_link_width
+0: [1581715402.322426] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl rc mlx4_0:1
+0: [1581715402.322429] [cgpu12:42393:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0x4
+0: [1581715402.322432] [cgpu12:42393:0]         uct_md.c:169  UCX  DEBUG Failed to query rc_mlx5 resources: No such device
+0: [1581715402.322435] [cgpu12:42393:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0xc4
+0: [1581715402.322438] [cgpu12:42393:0]         uct_md.c:169  UCX  DEBUG Failed to query dc_mlx5 resources: No such device
+0: [1581715402.322441] [cgpu12:42393:0]      ib_device.c:705  UCX  DEBUG found usable port for tl ud mlx4_0:1
+0: [1581715402.322451] [cgpu12:42393:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0x4
+0: [1581715402.322453] [cgpu12:42393:0]         uct_md.c:169  UCX  DEBUG Failed to query ud_mlx5 resources: No such device
+0: [1581715402.322470] [cgpu12:42393:0]      ib_device.c:421  UCX  DEBUG mlx4_0:1 is not IB link layer
+0: [1581715402.322472] [cgpu12:42393:0]      ib_device.c:710  UCX  DEBUG no compatible IB ports found for flags 0x20
+0: [1581715402.322476] [cgpu12:42393:0]         uct_md.c:169  UCX  DEBUG Failed to query cm resources: No such device
+0: [1581715402.322479] [cgpu12:42393:0]    ucp_context.c:964  UCX  DEBUG closing md ib/mlx4_0 because it has no selected transport resources
+0: [1581715402.322484] [cgpu12:42393:0]          mpool.c:137  UCX  DEBUG mpool rcache_inv_mp destroyed
+0: [1581715402.322487] [cgpu12:42393:0]      ib_device.c:338  UCX  DEBUG destroying ib device mlx4_0
+0: [1581715402.322603] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ucp_rkeys: align 64, maxelems 4294967295, elemsize 144
+0: [1581715402.322607] [cgpu12:42393:0]    ucp_context.c:1243 UCX  DEBUG created ucp context 0x5555574456e0 [11 mds 31 tls] features 0x1 tl bitmap 0x7fffffff
+0: [1581715402.440989] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ucp_requests: align 64, maxelems 4294967295, elemsize 400
+1: [1581715402.441498] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ucp_requests: align 64, maxelems 4294967295, elemsize 400
+0: [1581715402.466137] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool mm_recv_desc: align 64, maxelems 4294967295, elemsize 8304
+1: [1581715402.466145] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool mm_recv_desc: align 64, maxelems 4294967295, elemsize 8304
+0: [1581715402.468617] [cgpu12:42393:0]       mm_posix.c:353  UCX  DEBUG mm failed to allocate 1065072 bytes with hugetlb Invalid argument
+0: [1581715402.468628] [cgpu12:42393:0]          mm_md.c:52   UCX  DEBUG mm allocated address 0x2aab2f05d000 length 1065072 mmid 182076548579774
+0: [1581715402.468633] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool mm_recv_desc: allocated chunk 0x2aab2f05d018 of 1065048 bytes with 128 elements
+0: [1581715402.468770] [cgpu12:42393:0]       mm_iface.c:576  UCX  DEBUG Created an MM iface. FIFO mm id: 182076548579758
+0: [1581715402.468777] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[0]=0x55555760e2a0 using mm/posix on worker 0x555557637880
+0: [1581715402.468824] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool mm_recv_desc: align 64, maxelems 4294967295, elemsize 8304
+1: [1581715402.468905] [cgpu12:42394:0]       mm_posix.c:353  UCX  DEBUG mm failed to allocate 1065072 bytes with hugetlb Invalid argument
+1: [1581715402.468915] [cgpu12:42394:0]          mm_md.c:52   UCX  DEBUG mm allocated address 0x2aab2b11e000 length 1065072 mmid 182080843547070
+1: [1581715402.468923] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool mm_recv_desc: allocated chunk 0x2aab2b11e018 of 1065048 bytes with 128 elements
+0: [1581715402.468931] [cgpu12:42393:0]        mm_sysv.c:55   UCX  DEBUG mm failed to allocate 1065072 bytes with hugetlb
+0: [1581715402.468947] [cgpu12:42393:0]          mm_md.c:52   UCX  DEBUG mm allocated address 0x2aab2f162000 length 1069056 mmid 114393089
+0: [1581715402.468953] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool mm_recv_desc: allocated chunk 0x2aab2f162018 of 1069032 bytes with 128 elements
+1: [1581715402.469071] [cgpu12:42394:0]       mm_iface.c:576  UCX  DEBUG Created an MM iface. FIFO mm id: 182080843547054
+1: [1581715402.469078] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[0]=0x55555760d1a0 using mm/posix on worker 0x555557636780
+1: [1581715402.469124] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool mm_recv_desc: align 64, maxelems 4294967295, elemsize 8304
+1: [1581715402.469174] [cgpu12:42394:0]        mm_sysv.c:55   UCX  DEBUG mm failed to allocate 1065072 bytes with hugetlb
+1: [1581715402.469184] [cgpu12:42394:0]          mm_md.c:52   UCX  DEBUG mm allocated address 0x2aab2b223000 length 1069056 mmid 114458627
+1: [1581715402.469190] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool mm_recv_desc: allocated chunk 0x2aab2b223018 of 1069032 bytes with 128 elements
+0: [1581715402.469232] [cgpu12:42393:0]       mm_iface.c:576  UCX  DEBUG Created an MM iface. FIFO mm id: 114360320
+0: [1581715402.469237] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[1]=0x555557624410 using mm/sysv on worker 0x555557637880
+0: [1581715402.469247] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool self_msg_desc: align 64, maxelems 4294967295, elemsize 8200
+0: [1581715402.469250] [cgpu12:42393:0]           self.c:188  UCX  DEBUG created self iface id 0x8d81d32aab44868f send_size 8192
+0: [1581715402.469253] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[2]=0x55555760fa90 using self/self on worker 0x555557637880
+0: [1581715402.469272] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool CUDA EVENT objects: align 64, maxelems 1024, elemsize 32
+0: [1581715402.469278] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[3]=0x55555760ff90 using cuda_copy/cudacopy0 on worker 0x555557637880
+0: [1581715402.469292] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool CUDA_IPC EVENT objects: align 64, maxelems 1024, elemsize 40
+0: [1581715402.469295] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[4]=0x555557624ec0 using cuda_ipc/cudaipc0 on worker 0x555557637880
+0: [1581715402.469309] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[5]=0x555557625460 using gdr_copy/gdrcopy0 on worker 0x555557637880
+1: [1581715402.469464] [cgpu12:42394:0]       mm_iface.c:576  UCX  DEBUG Created an MM iface. FIFO mm id: 114425858
+1: [1581715402.469469] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[1]=0x555557623310 using mm/sysv on worker 0x555557636780
+1: [1581715402.469479] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool self_msg_desc: align 64, maxelems 4294967295, elemsize 8200
+1: [1581715402.469482] [cgpu12:42394:0]           self.c:188  UCX  DEBUG created self iface id 0x1d7cecc156796556 send_size 8192
+1: [1581715402.469485] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[2]=0x55555760e990 using self/self on worker 0x555557636780
+1: [1581715402.469503] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool CUDA EVENT objects: align 64, maxelems 1024, elemsize 32
+1: [1581715402.469509] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[3]=0x55555760ee90 using cuda_copy/cudacopy0 on worker 0x555557636780
+1: [1581715402.469519] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool CUDA_IPC EVENT objects: align 64, maxelems 1024, elemsize 40
+1: [1581715402.469523] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[4]=0x555557623dc0 using cuda_ipc/cudaipc0 on worker 0x555557636780
+1: [1581715402.469537] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[5]=0x555557624360 using gdr_copy/gdrcopy0 on worker 0x555557636780
+0: [1581715402.469541] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+0: [1581715402.469574] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.469598] [cgpu12:42393:0]      ib_device.c:1002 UCX  DEBUG max IB CQE size is 128
+0: [1581715402.469602] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+1: [1581715402.469665] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+1: [1581715402.469712] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.469729] [cgpu12:42394:0]      ib_device.c:1002 UCX  DEBUG max IB CQE size is 128
+1: [1581715402.469734] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+0: [1581715402.470799] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+1: [1581715402.470803] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+0: [1581715402.471455] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 83 data_sz 8192
+1: [1581715402.471455] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 83 data_sz 8192
+0: [1581715402.471479] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.471483] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.471479] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.471482] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.471504] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.471505] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.472520] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+0: [1581715402.472530] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_verbs_short_desc: align 64, maxelems 4294967295, elemsize 192
+1: [1581715402.472522] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+1: [1581715402.472530] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_verbs_short_desc: align 64, maxelems 4294967295, elemsize 192
+0: [1581715402.472819] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557619300: created RC QP 0x2eda on mlx5_0:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+1: [1581715402.472818] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557618200: created RC QP 0x2ed9 on mlx5_0:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+0: [1581715402.473213] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[6]=0x555557619300 using rc/mlx5_0:1 on worker 0x555557637880
+0: [1581715402.473441] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+0: [1581715402.473465] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.473549] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+0: [1581715402.474454] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+0: [1581715402.474977] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+0: [1581715402.474985] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.474988] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.475091] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.475324] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+0: [1581715402.475914] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool mlx5_dm_desc: align 64, maxelems 1, elemsize 64
+0: [1581715402.475919] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+0: [1581715402.475926] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[7]=0x5555576c2f70 using rc_mlx5/mlx5_0:1 on worker 0x555557637880
+0: [1581715402.476063] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+0: [1581715402.476083] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.476090] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+0: [1581715402.476897] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+0: [1581715402.477363] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+0: [1581715402.477390] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.477394] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.477482] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.477729] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 104
+0: [1581715402.477893] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.477986] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[6]=0x555557618200 using rc/mlx5_0:1 on worker 0x555557636780
+1: [1581715402.478202] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+0: [1581715402.478215] [cgpu12:42393:0]        dc_mlx5.c:678  UCX  DEBUG creating 8 dci(s)
+1: [1581715402.478226] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.478312] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+0: [1581715402.478460] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fb780: created DCI QP 0x2edb on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.479187] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+0: [1581715402.479489] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fb780: created DCI QP 0x2edc on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.479692] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+1: [1581715402.479699] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.479702] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.479797] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.480069] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+0: [1581715402.480401] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fb780: created DCI QP 0x2edd on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.480533] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool mlx5_dm_desc: align 64, maxelems 1, elemsize 64
+1: [1581715402.480538] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.480544] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[7]=0x5555576c1e70 using rc_mlx5/mlx5_0:1 on worker 0x555557636780
+1: [1581715402.480684] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+1: [1581715402.480704] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.480711] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+0: [1581715402.481263] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fb780: created DCI QP 0x2ede on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.481537] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=128
+1: [1581715402.482050] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+1: [1581715402.482071] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.482075] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.482180] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.482253] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fb780: created DCI QP 0x2edf on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.482423] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 104
+1: [1581715402.482575] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.482879] [cgpu12:42394:0]        dc_mlx5.c:678  UCX  DEBUG creating 8 dci(s)
+1: [1581715402.483095] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fa680: created DCI QP 0x2ee0 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.483105] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fb780: created DCI QP 0x2ee1 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.484087] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fb780: created DCI QP 0x2ee3 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.484091] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fa680: created DCI QP 0x2ee2 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.485004] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fb780: created DCI QP 0x2ee4 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.485002] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fa680: created DCI QP 0x2ee5 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.485707] [cgpu12:42393:0]        dc_mlx5.c:1153 UCX  DEBUG dc iface 0x5555576fb780: using 'dcs_quota' policy with 8 dcis, dct 0x3f99
+0: [1581715402.485759] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.485769] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.485774] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.485778] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.485783] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.485787] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.485791] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.485795] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.485886] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fa680: created DCI QP 0x2ee6 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.486692] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fa680: created DCI QP 0x2ee7 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.487521] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fa680: created DCI QP 0x2ee8 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.488348] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fa680: created DCI QP 0x2ee9 on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.489189] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576fa680: created DCI QP 0x2eea on mlx5_0:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.489883] [cgpu12:42394:0]        dc_mlx5.c:1153 UCX  DEBUG dc iface 0x5555576fa680: using 'dcs_quota' policy with 8 dcis, dct 0x3f9d
+1: [1581715402.489926] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.489954] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.489962] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.489969] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.489976] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.489982] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.489988] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.489992] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.493762] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab44200000..0x2aab46600000 on mlx5_0 lkey 0x455b0 rkey 0x455b0 exp_access 0x0 flags 0xe4
+0: [1581715402.493777] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab44200018 of 37748712 bytes with 4537 elements
+0: [1581715402.493920] [cgpu12:42393:0]        dc_mlx5.c:1184 UCX  DEBUG created dc iface 0x5555576fb780
+0: [1581715402.493930] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[8]=0x5555576fb780 using dc_mlx5/mlx5_0:1 on worker 0x555557637880
+0: [1581715402.494150] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+0: [1581715402.494178] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.494190] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+0: [1581715402.494528] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+0: [1581715402.495120] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+0: [1581715402.496299] [cgpu12:42393:0]           time.c:18   UCX  DEBUG measured arch clock speed: 2400000000.00 Hz
+0: [1581715402.496688] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557746240: created UD QP 0x2eeb on mlx5_0:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+0: [1581715402.497560] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+1: [1581715402.497655] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2b800000..0x2aab2dc00000 on mlx5_0 lkey 0x744a1 rkey 0x744a1 exp_access 0x0 flags 0xe4
+1: [1581715402.497682] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab2b800018 of 37748712 bytes with 4537 elements
+1: [1581715402.497808] [cgpu12:42394:0]        dc_mlx5.c:1184 UCX  DEBUG created dc iface 0x5555576fa680
+0: [1581715402.497821] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2f787000..0x2aab2f80c000 on mlx5_0 lkey 0x11e2c7 rkey 0x11e2c7 exp_access 0x0 flags 0xe4
+0: [1581715402.497826] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2f787018 of 544744 bytes with 128 elements
+1: [1581715402.497816] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[8]=0x5555576fa680 using dc_mlx5/mlx5_0:1 on worker 0x555557636780
+0: [1581715402.497832] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+0: [1581715402.497872] [cgpu12:42393:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+0: [1581715402.497909] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557743d90 [id=1000000] ???() to hash
+1: [1581715402.497977] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+1: [1581715402.498002] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.498015] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[9]=0x555557746240 using ud/mlx5_0:1 on worker 0x555557637880
+1: [1581715402.498011] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+1: [1581715402.498247] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+1: [1581715402.498786] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+1: [1581715402.499928] [cgpu12:42394:0]           time.c:18   UCX  DEBUG measured arch clock speed: 2400000000.00 Hz
+1: [1581715402.500307] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557745140: created UD QP 0x2eec on mlx5_0:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+1: [1581715402.501141] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+1: [1581715402.501412] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2dda9000..0x2aab2de2e000 on mlx5_0 lkey 0x11b69d rkey 0x11b69d exp_access 0x0 flags 0xe4
+1: [1581715402.501417] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2dda9018 of 544744 bytes with 128 elements
+1: [1581715402.501422] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+1: [1581715402.501452] [cgpu12:42394:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+1: [1581715402.501481] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557635c20 [id=1000000] ???() to hash
+1: [1581715402.501548] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[9]=0x555557745140 using ud/mlx5_0:1 on worker 0x555557636780
+1: [1581715402.521946] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+1: [1581715402.521976] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.521986] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+1: [1581715402.522526] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+1: [1581715402.523192] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+1: [1581715402.523713] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577589f0: created UD QP 0x2eed on mlx5_0:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+1: [1581715402.525060] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+1: [1581715402.525321] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2e0af000..0x2aab2e134000 on mlx5_0 lkey 0x1167d9 rkey 0x1167d9 exp_access 0x0 flags 0xe4
+1: [1581715402.525325] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2e0af018 of 544744 bytes with 128 elements
+1: [1581715402.525338] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+1: [1581715402.525512] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 65536 bytes [bb=64, nwqe=1024] mmio_mode bf_post
+1: [1581715402.525550] [cgpu12:42394:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+1: [1581715402.525554] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x5555576335c0 [id=1000001] ???() to hash
+1: [1581715402.525564] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[10]=0x5555577589f0 using ud_mlx5/mlx5_0:1 on worker 0x555557636780
+1: [1581715402.525694] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+1: [1581715402.525716] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.525724] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+1: [1581715402.525984] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+1: [1581715402.526527] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 84 data_sz 216
+1: [1581715402.526599] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x55555762f950 [id=66] ???() to hash
+1: [1581715402.526608] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 66 events 0x1 mode thread_spinlock
+1: [1581715402.526615] [cgpu12:42394:0]       cm_iface.c:358  UCX  DEBUG listening for SIDR service_id 0x5f5cf900 on fd 66
+1: [1581715402.526623] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[11]=0x55555776c0f0 using cm/mlx5_0:1 on worker 0x555557636780
+1: [1581715402.526812] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+1: [1581715402.526842] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.526851] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+1: [1581715402.527912] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+1: [1581715402.528529] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 83 data_sz 8192
+1: [1581715402.528551] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.528554] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.528654] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.529602] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+1: [1581715402.529606] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_verbs_short_desc: align 64, maxelems 4294967295, elemsize 192
+1: [1581715402.529903] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x55555776cc40: created RC QP 0x2ec9 on mlx5_2:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+1: [1581715402.530293] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[12]=0x55555776cc40 using rc/mlx5_2:1 on worker 0x555557636780
+1: [1581715402.530426] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+1: [1581715402.530450] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.530534] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+1: [1581715402.531335] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+1: [1581715402.531813] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+1: [1581715402.531830] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.531834] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.531926] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.532142] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+1: [1581715402.532686] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool mlx5_dm_desc: align 64, maxelems 1, elemsize 64
+1: [1581715402.532691] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.532696] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[13]=0x5555577adfa0 using rc_mlx5/mlx5_2:1 on worker 0x555557636780
+1: [1581715402.532821] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+1: [1581715402.532841] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.532847] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+1: [1581715402.533684] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+1: [1581715402.534163] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+1: [1581715402.534184] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.534187] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.534284] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.534508] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 104
+1: [1581715402.534657] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.534924] [cgpu12:42394:0]        dc_mlx5.c:678  UCX  DEBUG creating 8 dci(s)
+1: [1581715402.535149] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e7200: created DCI QP 0x2eca on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.536339] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e7200: created DCI QP 0x2ecb on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.537213] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e7200: created DCI QP 0x2ecc on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.537850] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+0: [1581715402.537881] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.537892] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+1: [1581715402.538057] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e7200: created DCI QP 0x2ecd on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.538167] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+0: [1581715402.538692] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+1: [1581715402.538888] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e7200: created DCI QP 0x2ece on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.539118] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557759cb0: created UD QP 0x2eee on mlx5_0:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+1: [1581715402.539743] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e7200: created DCI QP 0x2ecf on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.540341] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+0: [1581715402.540610] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2faad000..0x2aab2fb32000 on mlx5_0 lkey 0x118efc rkey 0x118efc exp_access 0x0 flags 0xe4
+0: [1581715402.540615] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2faad018 of 544744 bytes with 128 elements
+0: [1581715402.540620] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+1: [1581715402.540662] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e7200: created DCI QP 0x2ed0 on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.540759] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 65536 bytes [bb=64, nwqe=1024] mmio_mode bf_post
+0: [1581715402.540796] [cgpu12:42393:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+0: [1581715402.540801] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x5555576324c0 [id=1000001] ???() to hash
+0: [1581715402.540812] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[10]=0x555557759cb0 using ud_mlx5/mlx5_0:1 on worker 0x555557637880
+0: [1581715402.540928] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_0:1
+0: [1581715402.540949] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.540957] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+0: [1581715402.541233] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_0: setting MLX5_CQE_SIZE=64
+1: [1581715402.541549] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e7200: created DCI QP 0x2ed1 on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.541737] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 84 data_sz 216
+0: [1581715402.541797] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557634650 [id=66] ???() to hash
+0: [1581715402.541807] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 66 events 0x1 mode thread_spinlock
+0: [1581715402.541811] [cgpu12:42393:0]       cm_iface.c:358  UCX  DEBUG listening for SIDR service_id 0x94496100 on fd 66
+0: [1581715402.541819] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[11]=0x55555776d320 using cm/mlx5_0:1 on worker 0x555557637880
+0: [1581715402.541942] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+0: [1581715402.541964] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.541973] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+1: [1581715402.542245] [cgpu12:42394:0]        dc_mlx5.c:1153 UCX  DEBUG dc iface 0x5555577e7200: using 'dcs_quota' policy with 8 dcis, dct 0x3f0f
+1: [1581715402.542251] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.542256] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.542260] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.542264] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.542268] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.542272] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.542276] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.542280] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.542946] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+0: [1581715402.543459] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 83 data_sz 8192
+0: [1581715402.543481] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.543485] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.543592] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.543946] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+0: [1581715402.543950] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_verbs_short_desc: align 64, maxelems 4294967295, elemsize 192
+0: [1581715402.544238] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x55555776de70: created RC QP 0x2ed2 on mlx5_2:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+0: [1581715402.544719] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[12]=0x55555776de70 using rc/mlx5_2:1 on worker 0x555557637880
+0: [1581715402.544874] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+0: [1581715402.544899] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.544984] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+0: [1581715402.545876] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+0: [1581715402.546389] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+0: [1581715402.546407] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.546411] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.546502] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.546768] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+0: [1581715402.547293] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool mlx5_dm_desc: align 64, maxelems 1, elemsize 64
+0: [1581715402.547298] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+0: [1581715402.547304] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[13]=0x5555577af1d0 using rc_mlx5/mlx5_2:1 on worker 0x555557637880
+0: [1581715402.547454] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+0: [1581715402.547476] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.547484] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+0: [1581715402.548357] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=128
+0: [1581715402.548870] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+0: [1581715402.548890] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.548894] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.548992] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.549232] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 104
+0: [1581715402.549378] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+0: [1581715402.549725] [cgpu12:42393:0]        dc_mlx5.c:678  UCX  DEBUG creating 8 dci(s)
+1: [1581715402.549948] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab40200000..0x2aab42600000 on mlx5_2 lkey 0x71e29 rkey 0x71e29 exp_access 0x0 flags 0xe4
+1: [1581715402.549956] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab40200018 of 37748712 bytes with 4537 elements
+1: [1581715402.550081] [cgpu12:42394:0]        dc_mlx5.c:1184 UCX  DEBUG created dc iface 0x5555577e7200
+1: [1581715402.550087] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[14]=0x5555577e7200 using dc_mlx5/mlx5_2:1 on worker 0x555557636780
+0: [1581715402.550191] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e8430: created DCI QP 0x2ed3 on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.550217] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+1: [1581715402.550242] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.550251] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+1: [1581715402.550480] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+1: [1581715402.551029] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+1: [1581715402.551311] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557833350: created UD QP 0x2ed4 on mlx5_2:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+0: [1581715402.551461] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e8430: created DCI QP 0x2ed5 on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.552049] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+1: [1581715402.552253] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2e774000..0x2aab2e7f9000 on mlx5_2 lkey 0xd0a05 rkey 0xd0a05 exp_access 0x0 flags 0xe4
+1: [1581715402.552257] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2e774018 of 544744 bytes with 128 elements
+1: [1581715402.552261] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+1: [1581715402.552279] [cgpu12:42394:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+1: [1581715402.552285] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x55555782e750 [id=1000003] ???() to hash
+1: [1581715402.552296] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[15]=0x555557833350 using ud/mlx5_2:1 on worker 0x555557636780
+0: [1581715402.552308] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e8430: created DCI QP 0x2ed6 on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.552391] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+1: [1581715402.552410] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.552417] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+1: [1581715402.552619] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+1: [1581715402.553096] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+0: [1581715402.553161] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e8430: created DCI QP 0x2ed7 on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.553336] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557846bf0: created UD QP 0x2ed8 on mlx5_2:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+0: [1581715402.553983] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e8430: created DCI QP 0x2ed9 on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.553996] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+1: [1581715402.554208] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2e8a1000..0x2aab2e926000 on mlx5_2 lkey 0x1466de rkey 0x1466de exp_access 0x0 flags 0xe4
+1: [1581715402.554215] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2e8a1018 of 544744 bytes with 128 elements
+1: [1581715402.554220] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+1: [1581715402.554344] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 65536 bytes [bb=64, nwqe=1024] mmio_mode bf_post
+1: [1581715402.554370] [cgpu12:42394:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+1: [1581715402.554374] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x5555578364d0 [id=1000004] ???() to hash
+1: [1581715402.554383] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[16]=0x555557846bf0 using ud_mlx5/mlx5_2:1 on worker 0x555557636780
+1: [1581715402.554491] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+1: [1581715402.554510] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.554517] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+1: [1581715402.554707] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+0: [1581715402.554877] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e8430: created DCI QP 0x2eda on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.555257] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 84 data_sz 216
+1: [1581715402.555321] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557833300 [id=73] ???() to hash
+1: [1581715402.555334] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 73 events 0x1 mode thread_spinlock
+1: [1581715402.555337] [cgpu12:42394:0]       cm_iface.c:358  UCX  DEBUG listening for SIDR service_id 0xc43df500 on fd 73
+1: [1581715402.555343] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[17]=0x55555785a2d0 using cm/mlx5_2:1 on worker 0x555557636780
+1: [1581715402.555510] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+1: [1581715402.555534] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.555543] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+0: [1581715402.555815] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e8430: created DCI QP 0x2edb on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.556639] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+0: [1581715402.556661] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577e8430: created DCI QP 0x2edc on mlx5_2:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.557262] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 83 data_sz 8192
+1: [1581715402.557282] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.557285] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.557303] [cgpu12:42393:0]        dc_mlx5.c:1153 UCX  DEBUG dc iface 0x5555577e8430: using 'dcs_quota' policy with 8 dcis, dct 0x3f1c
+0: [1581715402.557310] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.557314] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.557318] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.557322] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.557326] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.557331] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.557335] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.557339] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.557383] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.558355] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+1: [1581715402.558359] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_verbs_short_desc: align 64, maxelems 4294967295, elemsize 192
+1: [1581715402.558644] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x55555785ae20: created RC QP 0x2eb1 on mlx5_4:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+1: [1581715402.559006] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[18]=0x55555785ae20 using rc/mlx5_4:1 on worker 0x555557636780
+1: [1581715402.559144] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+1: [1581715402.559170] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.559246] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+1: [1581715402.560095] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+1: [1581715402.560575] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+1: [1581715402.560593] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.560597] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.560690] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.560931] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+1: [1581715402.561512] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool mlx5_dm_desc: align 64, maxelems 1, elemsize 64
+1: [1581715402.561517] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.561522] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[19]=0x55555789c180 using rc_mlx5/mlx5_4:1 on worker 0x555557636780
+1: [1581715402.561654] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+1: [1581715402.561694] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.561702] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+1: [1581715402.562561] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+1: [1581715402.563071] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+1: [1581715402.563098] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.563102] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.563188] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.563417] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 104
+1: [1581715402.563566] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.563871] [cgpu12:42394:0]        dc_mlx5.c:678  UCX  DEBUG creating 8 dci(s)
+1: [1581715402.564093] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d5700: created DCI QP 0x2eb2 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.564881] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab46800000..0x2aab48c00000 on mlx5_2 lkey 0x72d91 rkey 0x72d91 exp_access 0x0 flags 0xe4
+0: [1581715402.564891] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab46800018 of 37748712 bytes with 4537 elements
+0: [1581715402.565017] [cgpu12:42393:0]        dc_mlx5.c:1184 UCX  DEBUG created dc iface 0x5555577e8430
+0: [1581715402.565025] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[14]=0x5555577e8430 using dc_mlx5/mlx5_2:1 on worker 0x555557637880
+0: [1581715402.565218] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+0: [1581715402.565245] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.565253] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+1: [1581715402.565266] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d5700: created DCI QP 0x2eb3 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.565553] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+0: [1581715402.566082] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+1: [1581715402.566112] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d5700: created DCI QP 0x2eb4 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.566484] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578344c0: created UD QP 0x2edd on mlx5_2:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+1: [1581715402.566976] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d5700: created DCI QP 0x2eb5 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.567501] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+0: [1581715402.567753] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab48d7a000..0x2aab48dff000 on mlx5_2 lkey 0xd46b4 rkey 0xd46b4 exp_access 0x0 flags 0xe4
+0: [1581715402.567758] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab48d7a018 of 544744 bytes with 128 elements
+0: [1581715402.567768] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+0: [1581715402.567786] [cgpu12:42393:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+0: [1581715402.567793] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x5555577e83e0 [id=1000003] ???() to hash
+0: [1581715402.567804] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[15]=0x5555578344c0 using ud/mlx5_2:1 on worker 0x555557637880
+1: [1581715402.567800] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d5700: created DCI QP 0x2eb6 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.567912] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+0: [1581715402.567932] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.567939] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+0: [1581715402.568158] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+0: [1581715402.568651] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+1: [1581715402.568642] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d5700: created DCI QP 0x2eb7 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.568902] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557847c00: created UD QP 0x2ede on mlx5_2:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+1: [1581715402.569484] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d5700: created DCI QP 0x2eb8 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.569684] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+0: [1581715402.569903] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab48ea7000..0x2aab48f2c000 on mlx5_2 lkey 0x14883b rkey 0x14883b exp_access 0x0 flags 0xe4
+0: [1581715402.569907] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab48ea7018 of 544744 bytes with 128 elements
+0: [1581715402.569911] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+0: [1581715402.570044] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 65536 bytes [bb=64, nwqe=1024] mmio_mode bf_post
+0: [1581715402.570075] [cgpu12:42393:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+0: [1581715402.570080] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557828b10 [id=1000004] ???() to hash
+0: [1581715402.570090] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[16]=0x555557847c00 using ud_mlx5/mlx5_2:1 on worker 0x555557637880
+0: [1581715402.570184] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_2:1
+0: [1581715402.570205] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.570213] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+0: [1581715402.570427] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_2: setting MLX5_CQE_SIZE=64
+1: [1581715402.570487] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d5700: created DCI QP 0x2eb9 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.570947] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 84 data_sz 216
+0: [1581715402.571012] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x5555577aef10 [id=73] ???() to hash
+0: [1581715402.571021] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 73 events 0x1 mode thread_spinlock
+0: [1581715402.571025] [cgpu12:42393:0]       cm_iface.c:358  UCX  DEBUG listening for SIDR service_id 0xd6c94d00 on fd 73
+0: [1581715402.571029] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[17]=0x55555785b300 using cm/mlx5_2:1 on worker 0x555557637880
+0: [1581715402.571137] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+0: [1581715402.571157] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.571165] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+1: [1581715402.571167] [cgpu12:42394:0]        dc_mlx5.c:1153 UCX  DEBUG dc iface 0x5555578d5700: using 'dcs_quota' policy with 8 dcis, dct 0x3ef7
+1: [1581715402.571173] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.571178] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.571182] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.571186] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.571190] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.571194] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.571198] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.571202] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.572099] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+0: [1581715402.572602] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 83 data_sz 8192
+0: [1581715402.572623] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.572627] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.572727] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.573120] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+0: [1581715402.573124] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_verbs_short_desc: align 64, maxelems 4294967295, elemsize 192
+0: [1581715402.573429] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x55555785be50: created RC QP 0x2eba on mlx5_4:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+0: [1581715402.573916] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[18]=0x55555785be50 using rc/mlx5_4:1 on worker 0x555557637880
+0: [1581715402.574059] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+0: [1581715402.574083] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.574169] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+0: [1581715402.575061] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+0: [1581715402.575565] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+0: [1581715402.575583] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.575587] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.575674] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.575927] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+0: [1581715402.576480] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool mlx5_dm_desc: align 64, maxelems 1, elemsize 64
+0: [1581715402.576485] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+0: [1581715402.576491] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[19]=0x55555789d1d0 using rc_mlx5/mlx5_4:1 on worker 0x555557637880
+0: [1581715402.576632] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+0: [1581715402.576653] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.576660] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+0: [1581715402.577507] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=128
+0: [1581715402.578031] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+0: [1581715402.578052] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.578056] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.578172] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.578411] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 104
+0: [1581715402.578572] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+0: [1581715402.578906] [cgpu12:42393:0]        dc_mlx5.c:678  UCX  DEBUG creating 8 dci(s)
+1: [1581715402.578943] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab42800000..0x2aab44c00000 on mlx5_4 lkey 0x54380 rkey 0x54380 exp_access 0x0 flags 0xe4
+1: [1581715402.578952] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab42800018 of 37748712 bytes with 4537 elements
+1: [1581715402.579072] [cgpu12:42394:0]        dc_mlx5.c:1184 UCX  DEBUG created dc iface 0x5555578d5700
+1: [1581715402.579078] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[20]=0x5555578d5700 using dc_mlx5/mlx5_4:1 on worker 0x555557636780
+0: [1581715402.579188] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d6750: created DCI QP 0x2ebb on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.579205] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+1: [1581715402.579225] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.579240] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+1: [1581715402.579442] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+1: [1581715402.579978] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+1: [1581715402.580242] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579219b0: created UD QP 0x2ebc on mlx5_4:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+0: [1581715402.580498] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d6750: created DCI QP 0x2ebd on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.580931] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+1: [1581715402.581182] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2ef6e000..0x2aab2eff3000 on mlx5_4 lkey 0x10a13f rkey 0x10a13f exp_access 0x0 flags 0xe4
+1: [1581715402.581186] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2ef6e018 of 544744 bytes with 128 elements
+1: [1581715402.581191] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+1: [1581715402.581208] [cgpu12:42394:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+1: [1581715402.581214] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557918410 [id=1000006] ???() to hash
+1: [1581715402.581225] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[21]=0x5555579219b0 using ud/mlx5_4:1 on worker 0x555557636780
+1: [1581715402.581320] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+1: [1581715402.581339] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.581347] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d6750: created DCI QP 0x2ebe on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.581346] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+1: [1581715402.581537] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+1: [1581715402.582060] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+0: [1581715402.582236] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d6750: created DCI QP 0x2ebf on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.582309] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557935360: created UD QP 0x2ec0 on mlx5_4:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+1: [1581715402.582959] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+0: [1581715402.583101] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d6750: created DCI QP 0x2ec1 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.583220] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2f09b000..0x2aab2f120000 on mlx5_4 lkey 0x10aa4c rkey 0x10aa4c exp_access 0x0 flags 0xe4
+1: [1581715402.583224] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2f09b018 of 544744 bytes with 128 elements
+1: [1581715402.583228] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+1: [1581715402.583370] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 65536 bytes [bb=64, nwqe=1024] mmio_mode bf_post
+1: [1581715402.583398] [cgpu12:42394:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+1: [1581715402.583402] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557938490 [id=1000007] ???() to hash
+1: [1581715402.583410] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[22]=0x555557935360 using ud_mlx5/mlx5_4:1 on worker 0x555557636780
+1: [1581715402.583491] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+1: [1581715402.583510] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.583517] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+1: [1581715402.583693] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+0: [1581715402.583985] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d6750: created DCI QP 0x2ec2 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.584254] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 84 data_sz 216
+1: [1581715402.584339] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x55555790f250 [id=80] ???() to hash
+1: [1581715402.584349] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 80 events 0x1 mode thread_spinlock
+1: [1581715402.584351] [cgpu12:42394:0]       cm_iface.c:358  UCX  DEBUG listening for SIDR service_id 0x7bac8d00 on fd 80
+1: [1581715402.584355] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[23]=0x5555579486f0 using cm/mlx5_4:1 on worker 0x555557636780
+1: [1581715402.584525] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+1: [1581715402.584550] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.584559] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+0: [1581715402.584966] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d6750: created DCI QP 0x2ec3 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.585547] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+0: [1581715402.585878] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555578d6750: created DCI QP 0x2ec4 on mlx5_4:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.586198] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 83 data_sz 8192
+1: [1581715402.586219] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.586223] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.586325] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.586559] [cgpu12:42393:0]        dc_mlx5.c:1153 UCX  DEBUG dc iface 0x5555578d6750: using 'dcs_quota' policy with 8 dcis, dct 0x3f04
+0: [1581715402.586566] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.586571] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.586575] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.586579] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.586584] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.586589] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.586593] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.586597] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.587329] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+1: [1581715402.587333] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_verbs_short_desc: align 64, maxelems 4294967295, elemsize 192
+1: [1581715402.587606] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557949650: created RC QP 0x2eb1 on mlx5_6:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+1: [1581715402.587984] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[24]=0x555557949650 using rc/mlx5_6:1 on worker 0x555557636780
+1: [1581715402.588111] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+1: [1581715402.588137] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.588223] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+1: [1581715402.589078] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+1: [1581715402.589568] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+1: [1581715402.589587] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.589591] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.589702] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.589958] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+1: [1581715402.590491] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool mlx5_dm_desc: align 64, maxelems 1, elemsize 64
+1: [1581715402.590495] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.590500] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[25]=0x55555798a810 using rc_mlx5/mlx5_6:1 on worker 0x555557636780
+1: [1581715402.590634] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+1: [1581715402.590655] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.590663] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+1: [1581715402.591534] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+1: [1581715402.592036] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+1: [1581715402.592059] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+1: [1581715402.592062] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+1: [1581715402.592170] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+1: [1581715402.592399] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 104
+1: [1581715402.592548] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.592857] [cgpu12:42394:0]        dc_mlx5.c:678  UCX  DEBUG creating 8 dci(s)
+1: [1581715402.593105] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c3d80: created DCI QP 0x2eb2 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.593971] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab49600000..0x2aab4ba00000 on mlx5_4 lkey 0x7a858 rkey 0x7a858 exp_access 0x0 flags 0xe4
+0: [1581715402.593980] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab49600018 of 37748712 bytes with 4537 elements
+1: [1581715402.594085] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c3d80: created DCI QP 0x2eb3 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.594106] [cgpu12:42393:0]        dc_mlx5.c:1184 UCX  DEBUG created dc iface 0x5555578d6750
+0: [1581715402.594114] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[20]=0x5555578d6750 using dc_mlx5/mlx5_4:1 on worker 0x555557637880
+0: [1581715402.594274] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+0: [1581715402.594297] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.594305] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+0: [1581715402.594577] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+1: [1581715402.594953] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c3d80: created DCI QP 0x2eb4 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.595142] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+0: [1581715402.595455] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557922a70: created UD QP 0x2ec5 on mlx5_4:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+1: [1581715402.595815] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c3d80: created DCI QP 0x2eb5 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.596401] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+1: [1581715402.596613] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c3d80: created DCI QP 0x2eb6 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.596653] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab4bb75000..0x2aab4bbfa000 on mlx5_4 lkey 0xd83f0 rkey 0xd83f0 exp_access 0x0 flags 0xe4
+0: [1581715402.596657] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab4bb75018 of 544744 bytes with 128 elements
+0: [1581715402.596661] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+0: [1581715402.596682] [cgpu12:42393:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+0: [1581715402.596689] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x55555789cf90 [id=1000006] ???() to hash
+0: [1581715402.596701] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[21]=0x555557922a70 using ud/mlx5_4:1 on worker 0x555557637880
+0: [1581715402.596821] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+0: [1581715402.596840] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.596848] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+0: [1581715402.597089] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+1: [1581715402.597423] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c3d80: created DCI QP 0x2eb7 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.597586] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+0: [1581715402.597906] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579361f0: created UD QP 0x2ec6 on mlx5_4:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+1: [1581715402.598290] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c3d80: created DCI QP 0x2eb8 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.598626] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+0: [1581715402.598907] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab4bca2000..0x2aab4bd27000 on mlx5_4 lkey 0x14b365 rkey 0x14b365 exp_access 0x0 flags 0xe4
+0: [1581715402.598911] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab4bca2018 of 544744 bytes with 128 elements
+0: [1581715402.598915] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+0: [1581715402.599047] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 65536 bytes [bb=64, nwqe=1024] mmio_mode bf_post
+0: [1581715402.599075] [cgpu12:42393:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+0: [1581715402.599080] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557910310 [id=1000007] ???() to hash
+0: [1581715402.599090] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[22]=0x5555579361f0 using ud_mlx5/mlx5_4:1 on worker 0x555557637880
+1: [1581715402.599135] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c3d80: created DCI QP 0x2eb9 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.599184] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_4:1
+0: [1581715402.599204] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.599211] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+0: [1581715402.599462] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_4: setting MLX5_CQE_SIZE=64
+1: [1581715402.599884] [cgpu12:42394:0]        dc_mlx5.c:1153 UCX  DEBUG dc iface 0x5555579c3d80: using 'dcs_quota' policy with 8 dcis, dct 0x3ef7
+1: [1581715402.599890] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.599895] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.599900] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.599904] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.599908] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.599912] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.599916] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+1: [1581715402.599920] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.599970] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 84 data_sz 216
+0: [1581715402.600057] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x55555789d010 [id=80] ???() to hash
+0: [1581715402.600066] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 80 events 0x1 mode thread_spinlock
+0: [1581715402.600070] [cgpu12:42393:0]       cm_iface.c:358  UCX  DEBUG listening for SIDR service_id 0x8936f600 on fd 80
+0: [1581715402.600075] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[23]=0x555557949580 using cm/mlx5_4:1 on worker 0x555557637880
+0: [1581715402.600183] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+0: [1581715402.600202] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.600210] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+0: [1581715402.601134] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+0: [1581715402.601650] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 83 data_sz 8192
+0: [1581715402.601687] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.601691] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.601794] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.602148] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+0: [1581715402.602152] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_verbs_short_desc: align 64, maxelems 4294967295, elemsize 192
+0: [1581715402.602447] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x55555794a570: created RC QP 0x2eba on mlx5_6:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+0: [1581715402.602932] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[24]=0x55555794a570 using rc/mlx5_6:1 on worker 0x555557637880
+0: [1581715402.603064] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+0: [1581715402.603088] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.603194] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+0: [1581715402.604054] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+0: [1581715402.604599] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+0: [1581715402.604618] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.604622] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.604726] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.604976] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 64
+0: [1581715402.605509] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool mlx5_dm_desc: align 64, maxelems 1, elemsize 64
+0: [1581715402.605514] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+0: [1581715402.605521] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[25]=0x55555798b710 using rc_mlx5/mlx5_6:1 on worker 0x555557637880
+0: [1581715402.605672] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+0: [1581715402.605710] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.605718] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+0: [1581715402.606585] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=128
+0: [1581715402.607109] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 82 data_sz 8192
+0: [1581715402.607130] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_recv_desc: align 64, maxelems 4294967295, elemsize 8284
+0: [1581715402.607133] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_send_desc: align 64, maxelems 4294967295, elemsize 8256
+0: [1581715402.607229] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool flush-comps-only: align 64, maxelems 4294967295, elemsize 48
+0: [1581715402.607476] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool pending-fc-grants-only: align 1, maxelems 4294967295, elemsize 104
+0: [1581715402.607636] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool rc_mlx5_atomic_desc: align 64, maxelems 4294967295, elemsize 72
+1: [1581715402.607830] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab44e00000..0x2aab47200000 on mlx5_6 lkey 0x77fdb rkey 0x77fdb exp_access 0x0 flags 0xe4
+1: [1581715402.607839] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab44e00018 of 37748712 bytes with 4537 elements
+0: [1581715402.607965] [cgpu12:42393:0]        dc_mlx5.c:678  UCX  DEBUG creating 8 dci(s)
+1: [1581715402.607966] [cgpu12:42394:0]        dc_mlx5.c:1184 UCX  DEBUG created dc iface 0x5555579c3d80
+1: [1581715402.607973] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[26]=0x5555579c3d80 using dc_mlx5/mlx5_6:1 on worker 0x555557636780
+1: [1581715402.608103] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+1: [1581715402.608123] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.608130] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+0: [1581715402.608273] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c4ce0: created DCI QP 0x2ebb on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.608354] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+1: [1581715402.608864] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+1: [1581715402.609148] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557a100a0: created UD QP 0x2ebc on mlx5_6:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+0: [1581715402.609652] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c4ce0: created DCI QP 0x2ebd on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.609902] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+1: [1581715402.610177] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2f768000..0x2aab2f7ed000 on mlx5_6 lkey 0x10e2e3 rkey 0x10e2e3 exp_access 0x0 flags 0xe4
+1: [1581715402.610181] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2f768018 of 544744 bytes with 128 elements
+1: [1581715402.610186] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+1: [1581715402.610205] [cgpu12:42394:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+1: [1581715402.610211] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a13250 [id=1000009] ???() to hash
+1: [1581715402.610222] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[27]=0x555557a100a0 using ud/mlx5_6:1 on worker 0x555557636780
+1: [1581715402.610324] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+1: [1581715402.610344] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.610351] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+0: [1581715402.610580] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c4ce0: created DCI QP 0x2ebe on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.610576] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+1: [1581715402.611112] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+1: [1581715402.611362] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557a239f0: created UD QP 0x2ebf on mlx5_6:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+0: [1581715402.611494] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c4ce0: created DCI QP 0x2ec0 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.612049] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+1: [1581715402.612300] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab2f895000..0x2aab2f91a000 on mlx5_6 lkey 0x10f6f8 rkey 0x10f6f8 exp_access 0x0 flags 0xe4
+1: [1581715402.612304] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab2f895018 of 544744 bytes with 128 elements
+0: [1581715402.612314] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c4ce0: created DCI QP 0x2ec1 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.612308] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+1: [1581715402.612430] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 65536 bytes [bb=64, nwqe=1024] mmio_mode bf_post
+1: [1581715402.612455] [cgpu12:42394:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+1: [1581715402.612460] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a04690 [id=1000010] ???() to hash
+1: [1581715402.612468] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[28]=0x555557a239f0 using ud_mlx5/mlx5_6:1 on worker 0x555557636780
+1: [1581715402.612566] [cgpu12:42394:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+1: [1581715402.612585] [cgpu12:42394:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+1: [1581715402.612592] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+1: [1581715402.612789] [cgpu12:42394:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+0: [1581715402.613165] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c4ce0: created DCI QP 0x2ec2 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.613328] [cgpu12:42394:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 84 data_sz 216
+1: [1581715402.613434] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x55555798a650 [id=87] ???() to hash
+1: [1581715402.613443] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 87 events 0x1 mode thread_spinlock
+1: [1581715402.613446] [cgpu12:42394:0]       cm_iface.c:358  UCX  DEBUG listening for SIDR service_id 0x45e68000 on fd 87
+1: [1581715402.613450] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[29]=0x555557a36db0 using cm/mlx5_6:1 on worker 0x555557636780
+1: [1581715402.613715] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a0d850 [id=88] ???() to hash
+1: [1581715402.613726] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 88 events 0x1 mode thread_spinlock
+1: [1581715402.613732] [cgpu12:42394:0]   rdmacm_iface.c:581  UCX  DEBUG created an RDMACM iface 0x555557a37970. event_channel: 0x555557a10070, fd: 88, cm_id: (nil)
+1: [1581715402.613740] [cgpu12:42394:0]     ucp_worker.c:1049 UCX  DEBUG created interface[30]=0x555557a37970 using rdmacm/sockaddr on worker 0x555557636780
+1: [1581715402.613761] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x55555798a510 [id=54] ucp_worker_iface_event() to hash
+1: [1581715402.613770] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 54 events 0x0 mode thread_spinlock
+1: [1581715402.613803] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a0fe60 [id=56] ucp_worker_iface_event() to hash
+1: [1581715402.613810] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 56 events 0x0 mode thread_spinlock
+1: [1581715402.613840] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x5555579c3b00 [id=57] ucp_worker_iface_event() to hash
+1: [1581715402.613847] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 57 events 0x0 mode thread_spinlock
+1: [1581715402.613907] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x5555579c3b40 [id=58] ucp_worker_iface_event() to hash
+1: [1581715402.613914] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 58 events 0x0 mode thread_spinlock
+1: [1581715402.613943] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a235e0 [id=59] ucp_worker_iface_event() to hash
+1: [1581715402.613950] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 59 events 0x0 mode thread_spinlock
+1: [1581715402.613979] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a23620 [id=60] ucp_worker_iface_event() to hash
+1: [1581715402.613986] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 60 events 0x0 mode thread_spinlock
+1: [1581715402.614008] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a23660 [id=64] ucp_worker_iface_event() to hash
+1: [1581715402.614014] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 64 events 0x0 mode thread_spinlock
+1: [1581715402.614037] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a236a0 [id=67] ucp_worker_iface_event() to hash
+1: [1581715402.614044] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 67 events 0x0 mode thread_spinlock
+0: [1581715402.614073] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c4ce0: created DCI QP 0x2ec3 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+1: [1581715402.614066] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a236e0 [id=68] ucp_worker_iface_event() to hash
+1: [1581715402.614073] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 68 events 0x0 mode thread_spinlock
+1: [1581715402.614096] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a23720 [id=69] ucp_worker_iface_event() to hash
+1: [1581715402.614103] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 69 events 0x0 mode thread_spinlock
+1: [1581715402.614125] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a23760 [id=70] ucp_worker_iface_event() to hash
+1: [1581715402.614131] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 70 events 0x0 mode thread_spinlock
+1: [1581715402.614152] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a237a0 [id=71] ucp_worker_iface_event() to hash
+1: [1581715402.614159] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 71 events 0x0 mode thread_spinlock
+1: [1581715402.614185] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a237e0 [id=74] ucp_worker_iface_event() to hash
+1: [1581715402.614192] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 74 events 0x0 mode thread_spinlock
+1: [1581715402.614215] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a23950 [id=75] ucp_worker_iface_event() to hash
+1: [1581715402.614221] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 75 events 0x0 mode thread_spinlock
+1: [1581715402.614243] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a23990 [id=76] ucp_worker_iface_event() to hash
+1: [1581715402.614250] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 76 events 0x0 mode thread_spinlock
+1: [1581715402.614272] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a380c0 [id=77] ucp_worker_iface_event() to hash
+1: [1581715402.614278] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 77 events 0x0 mode thread_spinlock
+1: [1581715402.614299] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a38100 [id=78] ucp_worker_iface_event() to hash
+1: [1581715402.614306] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 78 events 0x0 mode thread_spinlock
+1: [1581715402.614328] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a38140 [id=81] ucp_worker_iface_event() to hash
+1: [1581715402.614335] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 81 events 0x0 mode thread_spinlock
+1: [1581715402.614356] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a38180 [id=82] ucp_worker_iface_event() to hash
+1: [1581715402.614363] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 82 events 0x0 mode thread_spinlock
+1: [1581715402.614384] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a381c0 [id=83] ucp_worker_iface_event() to hash
+1: [1581715402.614390] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 83 events 0x0 mode thread_spinlock
+1: [1581715402.614411] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a38200 [id=84] ucp_worker_iface_event() to hash
+1: [1581715402.614417] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 84 events 0x0 mode thread_spinlock
+1: [1581715402.614437] [cgpu12:42394:0]          async.c:197  UCX  DEBUG added async handler 0x555557a38240 [id=85] ucp_worker_iface_event() to hash
+1: [1581715402.614443] [cgpu12:42394:0]          async.c:449  UCX  DEBUG listening to async event fd 85 events 0x0 mode thread_spinlock
+1: [1581715402.614620] [cgpu12:42394:0]         ucp_ep.c:116  UCX  DEBUG created ep 0x2aab2f99a000 to <no debug data> mem type
+1: [1581715402.614765] [cgpu12:42394:0]         wireup.c:752  UCX  DEBUG ep 0x2aab2f99a000: am_lane 255 wireup_lane 255 reachable_mds 0x28
+1: [1581715402.614772] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a000: lane[0]:  5:gdr_copy/gdrcopy0 md[5]     -> addr[2].md[5] rma#0
+1: [1581715402.614777] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a000: lane[1]:  3:cuda_copy/cudacopy0 md[3]   -> addr[0].md[3] rma_bw#0
+1: [1581715402.614820] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ucp_am_bufs: align 64, maxelems 4294967295, elemsize 8272
+1: [1581715402.614823] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ucp_reg_bufs: align 64, maxelems 4294967295, elemsize 8208
+1: [1581715402.614827] [cgpu12:42394:0]          mpool.c:83   UCX  DEBUG mpool ucp_rndv_frags: align 64, maxelems 4294967295, elemsize 262160
+0: [1581715402.614948] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555579c4ce0: created DCI QP 0x2ec4 on mlx5_6:1 TX wr:170 sge:7 inl:108 RX wr:0 sge:0 inl 64
+0: [1581715402.615674] [cgpu12:42393:0]        dc_mlx5.c:1153 UCX  DEBUG dc iface 0x5555579c4ce0: using 'dcs_quota' policy with 8 dcis, dct 0x3f04
+0: [1581715402.615681] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.615685] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.615691] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.615695] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.615699] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.615703] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.615707] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.615710] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 32768 bytes [bb=64, nwqe=512] mmio_mode bf_post
+0: [1581715402.623192] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab4c400000..0x2aab4e800000 on mlx5_6 lkey 0x4d193 rkey 0x4d193 exp_access 0x0 flags 0xe4
+0: [1581715402.623202] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab4c400018 of 37748712 bytes with 4537 elements
+0: [1581715402.623320] [cgpu12:42393:0]        dc_mlx5.c:1184 UCX  DEBUG created dc iface 0x5555579c4ce0
+0: [1581715402.623328] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[26]=0x5555579c4ce0 using dc_mlx5/mlx5_6:1 on worker 0x555557637880
+0: [1581715402.623578] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+0: [1581715402.623599] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.623607] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+0: [1581715402.623991] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+0: [1581715402.624527] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+0: [1581715402.624947] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557a11000: created UD QP 0x2ec5 on mlx5_6:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+0: [1581715402.625994] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+0: [1581715402.626250] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab4e970000..0x2aab4e9f5000 on mlx5_6 lkey 0xf69ad rkey 0xf69ad exp_access 0x0 flags 0xe4
+0: [1581715402.626254] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab4e970018 of 544744 bytes with 128 elements
+0: [1581715402.626259] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+0: [1581715402.626277] [cgpu12:42393:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+0: [1581715402.626283] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x55555794a330 [id=1000009] ???() to hash
+0: [1581715402.626295] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[27]=0x555557a11000 using ud/mlx5_6:1 on worker 0x555557637880
+0: [1581715402.626394] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+0: [1581715402.626414] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.626421] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+0: [1581715402.626668] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+0: [1581715402.627194] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 16 payload_ofs 88 hdr_ofs 40 data_sz 4096
+0: [1581715402.627497] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x555557a24700: created UD QP 0x2ec6 on mlx5_6:1 TX wr:341 sge:8 inl:124 RX wr:4096 sge:1 inl 0
+0: [1581715402.628269] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_recv_skb: align 64, maxelems 4294967295, elemsize 4192
+0: [1581715402.628510] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab4ea9d000..0x2aab4eb22000 on mlx5_6 lkey 0x110507 rkey 0x110507 exp_access 0x0 flags 0xe4
+0: [1581715402.628514] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab4ea9d018 of 544744 bytes with 128 elements
+0: [1581715402.628519] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ud_tx_skb: align 64, maxelems 4294967295, elemsize 4168
+0: [1581715402.628658] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 65536 bytes [bb=64, nwqe=1024] mmio_mode bf_post
+0: [1581715402.628683] [cgpu12:42393:0]    timer_wheel.c:36   UCX  DEBUG high res timer created log=26 resolution=27962.026667 usec wanted: 25000.000000 usec
+0: [1581715402.628687] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a00d10 [id=1000010] ???() to hash
+0: [1581715402.628696] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[28]=0x555557a24700 using ud_mlx5/mlx5_6:1 on worker 0x555557637880
+0: [1581715402.628793] [cgpu12:42393:0]       ib_iface.c:418  UCX  DEBUG using pkey[0] 0xffff on mlx5_6:1
+0: [1581715402.628812] [cgpu12:42393:0]       ib_iface.c:475  UCX  DEBUG Not using value 1 for path_bits - must be < 2^lmc (lmc=0)
+0: [1581715402.628818] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+0: [1581715402.629023] [cgpu12:42393:0]       ib_iface.c:636  UCX  DEBUG mlx5_6: setting MLX5_CQE_SIZE=64
+0: [1581715402.629515] [cgpu12:42393:0]       ib_iface.c:876  UCX  DEBUG created uct_ib_iface_t headroom_ofs 12 payload_ofs 84 hdr_ofs 84 data_sz 216
+0: [1581715402.629619] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x55555794a3b0 [id=87] ???() to hash
+0: [1581715402.629629] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 87 events 0x1 mode thread_spinlock
+0: [1581715402.629633] [cgpu12:42393:0]       cm_iface.c:358  UCX  DEBUG listening for SIDR service_id 0x69695200 on fd 87
+0: [1581715402.629647] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[29]=0x555557a37ac0 using cm/mlx5_6:1 on worker 0x555557637880
+0: [1581715402.629792] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x5555579c4ca0 [id=88] ???() to hash
+0: [1581715402.629800] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 88 events 0x1 mode thread_spinlock
+0: [1581715402.629807] [cgpu12:42393:0]   rdmacm_iface.c:581  UCX  DEBUG created an RDMACM iface 0x555557a386c0. event_channel: 0x555557a386a0, fd: 88, cm_id: (nil)
+0: [1581715402.629815] [cgpu12:42393:0]     ucp_worker.c:1049 UCX  DEBUG created interface[30]=0x555557a386c0 using rdmacm/sockaddr on worker 0x555557637880
+0: [1581715402.629835] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a10d00 [id=54] ucp_worker_iface_event() to hash
+0: [1581715402.629843] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 54 events 0x0 mode thread_spinlock
+0: [1581715402.629876] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a242f0 [id=56] ucp_worker_iface_event() to hash
+0: [1581715402.629882] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 56 events 0x0 mode thread_spinlock
+0: [1581715402.629904] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a24330 [id=57] ucp_worker_iface_event() to hash
+0: [1581715402.629910] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 57 events 0x0 mode thread_spinlock
+0: [1581715402.629965] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a24370 [id=58] ucp_worker_iface_event() to hash
+0: [1581715402.629971] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 58 events 0x0 mode thread_spinlock
+0: [1581715402.630000] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a243b0 [id=59] ucp_worker_iface_event() to hash
+0: [1581715402.630006] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 59 events 0x0 mode thread_spinlock
+0: [1581715402.630030] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a243f0 [id=60] ucp_worker_iface_event() to hash
+0: [1581715402.630037] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 60 events 0x0 mode thread_spinlock
+0: [1581715402.630059] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a24430 [id=64] ucp_worker_iface_event() to hash
+0: [1581715402.630064] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 64 events 0x0 mode thread_spinlock
+0: [1581715402.630088] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a24470 [id=67] ucp_worker_iface_event() to hash
+0: [1581715402.630094] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 67 events 0x0 mode thread_spinlock
+0: [1581715402.630117] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a244b0 [id=68] ucp_worker_iface_event() to hash
+0: [1581715402.630123] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 68 events 0x0 mode thread_spinlock
+0: [1581715402.630145] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a244f0 [id=69] ucp_worker_iface_event() to hash
+0: [1581715402.630151] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 69 events 0x0 mode thread_spinlock
+0: [1581715402.630173] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a24530 [id=70] ucp_worker_iface_event() to hash
+0: [1581715402.630179] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 70 events 0x0 mode thread_spinlock
+0: [1581715402.630200] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a24570 [id=71] ucp_worker_iface_event() to hash
+0: [1581715402.630207] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 71 events 0x0 mode thread_spinlock
+0: [1581715402.630231] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a245b0 [id=74] ucp_worker_iface_event() to hash
+0: [1581715402.630238] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 74 events 0x0 mode thread_spinlock
+0: [1581715402.630261] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a24610 [id=75] ucp_worker_iface_event() to hash
+0: [1581715402.630267] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 75 events 0x0 mode thread_spinlock
+0: [1581715402.630288] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a24650 [id=76] ucp_worker_iface_event() to hash
+0: [1581715402.630295] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 76 events 0x0 mode thread_spinlock
+0: [1581715402.630316] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a24690 [id=77] ucp_worker_iface_event() to hash
+0: [1581715402.630322] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 77 events 0x0 mode thread_spinlock
+0: [1581715402.630343] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a38f20 [id=78] ucp_worker_iface_event() to hash
+0: [1581715402.630350] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 78 events 0x0 mode thread_spinlock
+0: [1581715402.630373] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a38f60 [id=81] ucp_worker_iface_event() to hash
+0: [1581715402.630379] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 81 events 0x0 mode thread_spinlock
+0: [1581715402.630401] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a38fa0 [id=82] ucp_worker_iface_event() to hash
+0: [1581715402.630407] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 82 events 0x0 mode thread_spinlock
+0: [1581715402.630433] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a38fe0 [id=83] ucp_worker_iface_event() to hash
+0: [1581715402.630439] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 83 events 0x0 mode thread_spinlock
+0: [1581715402.630460] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a39020 [id=84] ucp_worker_iface_event() to hash
+0: [1581715402.630467] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 84 events 0x0 mode thread_spinlock
+0: [1581715402.630487] [cgpu12:42393:0]          async.c:197  UCX  DEBUG added async handler 0x555557a39060 [id=85] ucp_worker_iface_event() to hash
+0: [1581715402.630493] [cgpu12:42393:0]          async.c:449  UCX  DEBUG listening to async event fd 85 events 0x0 mode thread_spinlock
+0: [1581715402.630643] [cgpu12:42393:0]         ucp_ep.c:116  UCX  DEBUG created ep 0x2aab4eba2000 to <no debug data> mem type
+0: [1581715402.630732] [cgpu12:42393:0]         wireup.c:752  UCX  DEBUG ep 0x2aab4eba2000: am_lane 255 wireup_lane 255 reachable_mds 0x28
+0: [1581715402.630740] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2000: lane[0]:  5:gdr_copy/gdrcopy0 md[5]     -> addr[2].md[5] rma#0
+0: [1581715402.630744] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2000: lane[1]:  3:cuda_copy/cudacopy0 md[3]   -> addr[0].md[3] rma_bw#0
+0: [1581715402.630794] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ucp_am_bufs: align 64, maxelems 4294967295, elemsize 8272
+0: [1581715402.630798] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ucp_reg_bufs: align 64, maxelems 4294967295, elemsize 8208
+0: [1581715402.630802] [cgpu12:42393:0]          mpool.c:83   UCX  DEBUG mpool ucp_rndv_frags: align 64, maxelems 4294967295, elemsize 262160
+0: [1581715402.643544] [cgpu12:42393:0]         ucp_ep.c:116  UCX  DEBUG created ep 0x2aab4eba2048 to <no debug data> from api call
+1: [1581715402.643563] [cgpu12:42394:0]         ucp_ep.c:116  UCX  DEBUG created ep 0x2aab2f99a048 to <no debug data> from api call
+0: [1581715402.643636] [cgpu12:42393:0]         wireup.c:752  UCX  DEBUG ep 0x2aab4eba2048: am_lane 0 wireup_lane 2 reachable_mds 0x3ef
+0: [1581715402.643643] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2048: lane[0]:  2:self/self md[2]             -> addr[2].md[2] am am_bw#0
+0: [1581715402.643647] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2048: lane[1]:  7:rc_mlx5/mlx5_0:1 md[6]      -> addr[7].md[6] rma_bw#0
+0: [1581715402.643651] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2048: lane[2]: 13:rc_mlx5/mlx5_2:1 md[7]      -> addr[13].md[7] rma_bw#1 wireup
+0: [1581715402.643655] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2048: lane[3]:  3:cuda_copy/cudacopy0 md[3]   -> addr[3].md[3] rma_bw#2
+1: [1581715402.643664] [cgpu12:42394:0]         wireup.c:752  UCX  DEBUG ep 0x2aab2f99a048: am_lane 0 wireup_lane 2 reachable_mds 0x3ef
+1: [1581715402.643671] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a048: lane[0]:  2:self/self md[2]             -> addr[2].md[2] am am_bw#0
+1: [1581715402.643674] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a048: lane[1]:  7:rc_mlx5/mlx5_0:1 md[6]      -> addr[7].md[6] rma_bw#0
+1: [1581715402.643678] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a048: lane[2]: 13:rc_mlx5/mlx5_2:1 md[7]      -> addr[13].md[7] rma_bw#1 wireup
+1: [1581715402.643684] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a048: lane[3]:  3:cuda_copy/cudacopy0 md[3]   -> addr[3].md[3] rma_bw#2
+0: [1581715402.645347] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576c2f70: created RC QP 0x2ef0 on mlx5_0:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+1: [1581715402.645346] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576c1e70: created RC QP 0x2eef on mlx5_0:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+1: [1581715402.647282] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 131072 bytes [bb=64, nwqe=2048] mmio_mode bf_post
+0: [1581715402.647299] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 131072 bytes [bb=64, nwqe=2048] mmio_mode bf_post
+1: [1581715402.647294] [cgpu12:42394:0]      wireup_ep.c:433  UCX  DEBUG ep 0x2aab2f99a048: created next_ep 0x555557610a30 to <no debug data> using rc_mlx5/mlx5_0:1
+0: [1581715402.647310] [cgpu12:42393:0]      wireup_ep.c:433  UCX  DEBUG ep 0x2aab4eba2048: created next_ep 0x555557611b30 to <no debug data> using rc_mlx5/mlx5_0:1
+0: [1581715402.655030] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab4ec00000..0x2aab51000000 on mlx5_0 lkey 0x45eb9 rkey 0x45eb9 exp_access 0x0 flags 0xe4
+0: [1581715402.655046] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab4ec00018 of 37748712 bytes with 4537 elements
+1: [1581715402.655224] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab47400000..0x2aab49800000 on mlx5_0 lkey 0x46ac1 rkey 0x46ac1 exp_access 0x0 flags 0xe4
+1: [1581715402.655236] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab47400018 of 37748712 bytes with 4537 elements
+0: [1581715402.656785] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577af1d0: created RC QP 0x2edf on mlx5_2:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+1: [1581715402.656786] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577adfa0: created RC QP 0x2ee0 on mlx5_2:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+0: [1581715402.658860] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 131072 bytes [bb=64, nwqe=2048] mmio_mode bf_post
+0: [1581715402.658869] [cgpu12:42393:0]      wireup_ep.c:433  UCX  DEBUG ep 0x2aab4eba2048: created next_ep 0x555557a5fe90 to <no debug data> using rc_mlx5/mlx5_2:1
+1: [1581715402.658851] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 131072 bytes [bb=64, nwqe=2048] mmio_mode bf_post
+1: [1581715402.658861] [cgpu12:42394:0]      wireup_ep.c:433  UCX  DEBUG ep 0x2aab2f99a048: created next_ep 0x555557a5f390 to <no debug data> using rc_mlx5/mlx5_2:1
+0: [1581715402.658951] [cgpu12:42393:0]          ud_ep.c:209  UCX  DEBUG created ep ep=0x5555577e8020 iface=0x555557759cb0 id=0 src_path_bits=0
+1: [1581715402.658951] [cgpu12:42394:0]          ud_ep.c:209  UCX  DEBUG created ep ep=0x5555577e6df0 iface=0x5555577589f0 id=0 src_path_bits=0
+0: [1581715402.658965] [cgpu12:42393:0]          ud_ep.c:295  UCX  DEBUG mlx5_0:1 lid 58 qpn 0x2eee epid 0 ep 0x5555577e8020 connected to IFACE lid 58 fe80:31b0:ad6d:1556:506b:4b03:fa:feae qpn 0x2eee
+1: [1581715402.658965] [cgpu12:42394:0]          ud_ep.c:295  UCX  DEBUG mlx5_0:1 lid 58 qpn 0x2eed epid 0 ep 0x5555577e6df0 connected to IFACE lid 58 fe80:31b0:ad6d:1556:506b:4b03:fa:feae qpn 0x2eed
+0: [1581715402.660655] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab51200000..0x2aab51800000 on mlx5_0 lkey 0x1e534a rkey 0x1e534a exp_access 0x0 flags 0xe4
+0: [1581715402.660660] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_tx_skb: allocated chunk 0x2aab51200018 of 6291432 bytes with 1489 elements
+0: [1581715402.660723] [cgpu12:42393:0]      wireup_ep.c:295  UCX  DEBUG ep 0x2aab4eba2048: wireup_ep 0x555557a5fcc0 created aux_ep 0x5555577e8020 to <no debug data> using ud_mlx5/mlx5_0:1
+1: [1581715402.660676] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab49a00000..0x2aab4a000000 on mlx5_0 lkey 0x1e4f46 rkey 0x1e4f46 exp_access 0x0 flags 0xe4
+1: [1581715402.660681] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_tx_skb: allocated chunk 0x2aab49a00018 of 6291432 bytes with 1489 elements
+1: [1581715402.660745] [cgpu12:42394:0]      wireup_ep.c:295  UCX  DEBUG ep 0x2aab2f99a048: wireup_ep 0x555557a5f1c0 created aux_ep 0x5555577e6df0 to <no debug data> using ud_mlx5/mlx5_0:1
+0: [1581715402.668669] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab51a00000..0x2aab53e00000 on mlx5_2 lkey 0x46dce rkey 0x46dce exp_access 0x0 flags 0xe4
+0: [1581715402.668683] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab51a00018 of 37748712 bytes with 4537 elements
+1: [1581715402.668669] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab4a200000..0x2aab4c600000 on mlx5_2 lkey 0x73498 rkey 0x73498 exp_access 0x0 flags 0xe4
+1: [1581715402.668683] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool rc_recv_desc: allocated chunk 0x2aab4a200018 of 37748712 bytes with 4537 elements
+0: [1581715402.668858] [cgpu12:42393:0]         wireup.c:864  UCX  DEBUG ep 0x2aab4eba2048: send wireup request (flags=0x400080)
+1: [1581715402.668854] [cgpu12:42394:0]         wireup.c:864  UCX  DEBUG ep 0x2aab2f99a048: send wireup request (flags=0x400080)
+0: [1581715402.668974] [cgpu12:42393:0]         ucp_ep.c:116  UCX  DEBUG created ep 0x2aab4eba2090 to <no debug data> from api call
+1: [1581715402.668974] [cgpu12:42394:0]         ucp_ep.c:116  UCX  DEBUG created ep 0x2aab2f99a090 to <no debug data> from api call
+0: [1581715402.669046] [cgpu12:42393:0]         wireup.c:752  UCX  DEBUG ep 0x2aab4eba2090: am_lane 0 wireup_lane 2 reachable_mds 0x3d3
+0: [1581715402.669050] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2090: lane[0]:  0:mm/posix md[0] <proxy>      -> addr[0].md[0] am am_bw#0
+0: [1581715402.669053] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2090: lane[1]:  7:rc_mlx5/mlx5_0:1 md[6]      -> addr[7].md[6] rma_bw#0
+1: [1581715402.669045] [cgpu12:42394:0]         wireup.c:752  UCX  DEBUG ep 0x2aab2f99a090: am_lane 0 wireup_lane 2 reachable_mds 0x3d3
+1: [1581715402.669050] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a090: lane[0]:  0:mm/posix md[0] <proxy>      -> addr[0].md[0] am am_bw#0
+1: [1581715402.669053] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a090: lane[1]:  7:rc_mlx5/mlx5_0:1 md[6]      -> addr[7].md[6] rma_bw#0
+0: [1581715402.669057] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2090: lane[2]: 13:rc_mlx5/mlx5_2:1 md[7]      -> addr[13].md[7] rma_bw#1 wireup
+0: [1581715402.669061] [cgpu12:42393:0]         wireup.c:758  UCX  DEBUG ep 0x2aab4eba2090: lane[3]:  4:cuda_ipc/cudaipc0 md[4]     -> addr[4].md[4] rma_bw#2
+1: [1581715402.669058] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a090: lane[2]: 13:rc_mlx5/mlx5_2:1 md[7]      -> addr[13].md[7] rma_bw#1 wireup
+1: [1581715402.669061] [cgpu12:42394:0]         wireup.c:758  UCX  DEBUG ep 0x2aab2f99a090: lane[3]:  4:cuda_ipc/cudaipc0 md[4]     -> addr[4].md[4] rma_bw#2
+0: [1581715402.669115] [cgpu12:42393:0]          mm_ep.c:104  UCX  DEBUG mm: ep connected: 0x5555572766f0, to remote_shmid: 182080843547054
+1: [1581715402.669119] [cgpu12:42394:0]          mm_ep.c:104  UCX  DEBUG mm: ep connected: 0x5555572766f0, to remote_shmid: 182076548579758
+0: [1581715402.670041] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576c2f70: created RC QP 0x2ef1 on mlx5_0:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+1: [1581715402.670043] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555576c1e70: created RC QP 0x2ef2 on mlx5_0:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+0: [1581715402.671092] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 131072 bytes [bb=64, nwqe=2048] mmio_mode bf_post
+0: [1581715402.671101] [cgpu12:42393:0]      wireup_ep.c:433  UCX  DEBUG ep 0x2aab4eba2090: created next_ep 0x555557a70d20 to <no debug data> using rc_mlx5/mlx5_0:1
+1: [1581715402.671094] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 131072 bytes [bb=64, nwqe=2048] mmio_mode bf_post
+1: [1581715402.671102] [cgpu12:42394:0]      wireup_ep.c:433  UCX  DEBUG ep 0x2aab2f99a090: created next_ep 0x555557a70030 to <no debug data> using rc_mlx5/mlx5_0:1
+0: [1581715402.671817] [cgpu12:42393:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577af1d0: created RC QP 0x2ee2 on mlx5_2:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+1: [1581715402.671815] [cgpu12:42394:0]       ib_iface.c:568  UCX  DEBUG iface=0x5555577adfa0: created RC QP 0x2ee1 on mlx5_2:1 TX wr:409 sge:8 inl:124 RX wr:0 sge:0 inl 64
+0: [1581715402.672889] [cgpu12:42393:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 131072 bytes [bb=64, nwqe=2048] mmio_mode bf_post
+0: [1581715402.672897] [cgpu12:42393:0]      wireup_ep.c:433  UCX  DEBUG ep 0x2aab4eba2090: created next_ep 0x555557a795b0 to <no debug data> using rc_mlx5/mlx5_2:1
+0: [1581715402.672914] [cgpu12:42393:0]          ud_ep.c:209  UCX  DEBUG created ep ep=0x5555576270f0 iface=0x555557759cb0 id=1 src_path_bits=0
+0: [1581715402.672918] [cgpu12:42393:0]          ud_ep.c:295  UCX  DEBUG mlx5_0:1 lid 58 qpn 0x2eee epid 1 ep 0x5555576270f0 connected to IFACE lid 58 fe80:31b0:ad6d:1556:506b:4b03:fa:feae qpn 0x2eed
+0: [1581715402.672924] [cgpu12:42393:0]      wireup_ep.c:295  UCX  DEBUG ep 0x2aab4eba2090: wireup_ep 0x555557a793e0 created aux_ep 0x5555576270f0 to <no debug data> using ud_mlx5/mlx5_0:1
+1: [1581715402.672890] [cgpu12:42394:0]        ib_mlx5.c:417  UCX  DEBUG tx wq 131072 bytes [bb=64, nwqe=2048] mmio_mode bf_post
+1: [1581715402.672898] [cgpu12:42394:0]      wireup_ep.c:433  UCX  DEBUG ep 0x2aab2f99a090: created next_ep 0x555557a78890 to <no debug data> using rc_mlx5/mlx5_2:1
+1: [1581715402.672913] [cgpu12:42394:0]          ud_ep.c:209  UCX  DEBUG created ep ep=0x555557625ff0 iface=0x5555577589f0 id=1 src_path_bits=0
+1: [1581715402.672918] [cgpu12:42394:0]          ud_ep.c:295  UCX  DEBUG mlx5_0:1 lid 58 qpn 0x2eed epid 1 ep 0x555557625ff0 connected to IFACE lid 58 fe80:31b0:ad6d:1556:506b:4b03:fa:feae qpn 0x2eee
+1: [1581715402.672924] [cgpu12:42394:0]      wireup_ep.c:295  UCX  DEBUG ep 0x2aab2f99a090: wireup_ep 0x555557a786c0 created aux_ep 0x555557625ff0 to <no debug data> using ud_mlx5/mlx5_0:1
+1: [1581715402.672958] [cgpu12:42394:0]         wireup.c:864  UCX  DEBUG ep 0x2aab2f99a090: send wireup request (flags=0x40)
+0: [1581715402.672962] [cgpu12:42393:0]         wireup.c:864  UCX  DEBUG ep 0x2aab4eba2090: send wireup request (flags=0x40)
+0: [1581715402.673073] [cgpu12:42393:0]          ud_ep.c:527  UCX  DEBUG simultanuous CREQ ep=0x5555577e8020(iface=0x555557759cb0 conn_id=0 ep_id=0, dest_ep_id=0 rx_psn=1)
+1: [1581715402.673069] [cgpu12:42394:0]          ud_ep.c:527  UCX  DEBUG simultanuous CREQ ep=0x5555577e6df0(iface=0x5555577589f0 conn_id=0 ep_id=0, dest_ep_id=0 rx_psn=1)
+1: [1581715402.677556] [cgpu12:42394:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab4c800000..0x2aab4dc00000 on mlx5_0 lkey 0x5b0a3 rkey 0x5b0a3 exp_access 0x0 flags 0xe4
+1: [1581715402.677566] [cgpu12:42394:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab4c800018 of 20971496 bytes with 4964 elements
+0: [1581715402.677659] [cgpu12:42393:0]          ib_md.c:1102 UCX  DEBUG registered memory 0x2aab54000000..0x2aab55400000 on mlx5_0 lkey 0x31159 rkey 0x31159 exp_access 0x0 flags 0xe4
+1: [1581715402.677657] [cgpu12:42394:0]          ud_ep.c:527  UCX  DEBUG simultanuous CREQ ep=0x555557625ff0(iface=0x5555577589f0 conn_id=0 ep_id=1, dest_ep_id=1 rx_psn=1)
+0: [1581715402.677686] [cgpu12:42393:0]          mpool.c:200  UCX  DEBUG mpool ud_recv_skb: allocated chunk 0x2aab54000018 of 20971496 bytes with 4964 elements
+0: [1581715402.677775] [cgpu12:42393:0]          ud_ep.c:527  UCX  DEBUG simultanuous CREQ ep=0x5555576270f0(iface=0x555557759cb0 conn_id=0 ep_id=1, dest_ep_id=1 rx_psn=1)
+1: MPI rank 1 size 2 device cuda:1
+0: [1581715402.678795] [cgpu12:42393:0]       rc_iface.c:821  UCX  DEBUG connected rc qp 0x2ef1 on mlx5_0:1 to lid 58(+0) sl 0 remote_qp 0x2ef2 mtu 4096 timer 18x7 rnr 13x7 rd_atom 4
+0: [1581715402.679713] [cgpu12:42393:0]       rc_iface.c:821  UCX  DEBUG connected rc qp 0x2ee2 on mlx5_2:1 to lid 65(+0) sl 0 remote_qp 0x2ee1 mtu 4096 timer 18x7 rnr 13x7 rd_atom 4
+0: MPI rank 0 size 2 device cuda:0
+0: [1581715402.698771] [cgpu12:42393:1]       rc_iface.c:821  UCX  DEBUG connected rc qp 0x2ef0 on mlx5_0:1 to lid 58(+0) sl 0 remote_qp 0x2ef0 mtu 4096 timer 18x7 rnr 13x7 rd_atom 4
+0: [1581715402.699446] [cgpu12:42393:1]       rc_iface.c:821  UCX  DEBUG connected rc qp 0x2edf on mlx5_2:1 to lid 65(+0) sl 0 remote_qp 0x2edf mtu 4096 timer 18x7 rnr 13x7 rd_atom 4
+1: [1581715402.701970] [cgpu12:42394:1]       rc_iface.c:821  UCX  DEBUG connected rc qp 0x2eef on mlx5_0:1 to lid 58(+0) sl 0 remote_qp 0x2eef mtu 4096 timer 18x7 rnr 13x7 rd_atom 4
+1: [1581715402.702222] [cgpu12:42394:1]       rc_iface.c:821  UCX  DEBUG connected rc qp 0x2ee0 on mlx5_2:1 to lid 65(+0) sl 0 remote_qp 0x2ee0 mtu 4096 timer 18x7 rnr 13x7 rd_atom 4
+1: [1581715402.803551] [cgpu12:42394:1]       rc_iface.c:821  UCX  DEBUG connected rc qp 0x2ef2 on mlx5_0:1 to lid 58(+0) sl 0 remote_qp 0x2ef1 mtu 4096 timer 18x7 rnr 13x7 rd_atom 4
+1: [1581715402.804676] [cgpu12:42394:1]       rc_iface.c:821  UCX  DEBUG connected rc qp 0x2ee1 on mlx5_2:1 to lid 65(+0) sl 0 remote_qp 0x2ee2 mtu 4096 timer 18x7 rnr 13x7 rd_atom 4
+0: local result: tensor(176.7528, device='cuda:0')
+1: local result: tensor(14.9742, device='cuda:1')
+0: [1581715406.913870] [cgpu12:42393:2]          mpool.c:200  UCX  DEBUG mpool ucp_requests: allocated chunk 0x2aaba0000f04 of 57428 bytes with 128 elements
+1: [1581715406.913949] [cgpu12:42394:2]          mpool.c:200  UCX  DEBUG mpool ucp_requests: allocated chunk 0x2aab98000f74 of 57428 bytes with 128 elements
+0: [1581715406.914087] [cgpu12:42393:2]      wireup_ep.c:372  UCX  DEBUG ep 0x2aab4eba2048: destroy wireup ep 0x555557a5fcc0
+1: [1581715406.914085] [cgpu12:42394:2]      wireup_ep.c:372  UCX  DEBUG ep 0x2aab2f99a048: destroy wireup ep 0x555557a5f1c0
+1: [1581715406.914096] [cgpu12:42394:2]          ud_ep.c:1288 UCX  DEBUG ep 0x5555577e6df0: disconnect
+0: [1581715406.914095] [cgpu12:42393:2]          ud_ep.c:1288 UCX  DEBUG ep 0x5555577e8020: disconnect
+1: [1581715406.914153] [cgpu12:42394:2]      wireup_ep.c:372  UCX  DEBUG ep 0x2aab2f99a048: destroy wireup ep 0x5555572615e0
+0: [1581715406.914161] [cgpu12:42393:2]      wireup_ep.c:372  UCX  DEBUG ep 0x2aab4eba2048: destroy wireup ep 0x5555572615e0
+0: [1581715406.914229] [cgpu12:42393:2]      wireup_ep.c:372  UCX  DEBUG ep 0x2aab4eba2090: destroy wireup ep 0x555557a70b50
+0: [1581715406.914232] [cgpu12:42393:2]      wireup_ep.c:372  UCX  DEBUG ep 0x2aab4eba2090: destroy wireup ep 0x555557a793e0
+1: [1581715406.914240] [cgpu12:42394:2]      wireup_ep.c:372  UCX  DEBUG ep 0x2aab2f99a090: destroy wireup ep 0x555557a786c0
+1: [1581715406.914290] [cgpu12:42394:2]          ud_ep.c:1288 UCX  DEBUG ep 0x555557625ff0: disconnect
+0: [1581715406.914301] [cgpu12:42393:2]          ud_ep.c:1288 UCX  DEBUG ep 0x5555576270f0: disconnect
+1: [1581715406.914300] [cgpu12:42394:2]      wireup_ep.c:372  UCX  DEBUG ep 0x2aab2f99a090: destroy wireup ep 0x555557a6fe60
+0: [1581715406.914528] [cgpu12:42393:2]          mpool.c:200  UCX  DEBUG mpool ucp_rkeys: allocated chunk 0x2aaba000f0a0 of 24664 bytes with 128 elements
+0: [1581715406.914568] [cgpu12:42393:2]    cuda_ipc_md.c:62   UCX  ERROR cuCtxGetDevice(&cu_device) is failed. ret:invalid device context
+0: [1581715406.914581] [cgpu12:42393:2]       ucp_rkey.c:250  UCX  ERROR Failed to unpack remote key from remote md[4]: Input/output error
+0: [cgpu12:42393:2:42447] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x20)
+0: ==== backtrace ====
+0:     0  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucs.so.0(+0x2293c) [0x2aab23b7a93c]
+0:     1  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucs.so.0(+0x22ba4) [0x2aab23b7aba4]
+0:     2  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libuct.so.0(uct_rkey_release+0xe) [0x2aab2393f51e]
+0:     3  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucp.so.0(ucp_rkey_destroy+0x34) [0x2aab1a07e804]
+0:     4  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucp.so.0(ucp_ep_rkey_unpack+0x341) [0x2aab1a07e5e1]
+0:     5  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucp.so.0(ucp_rndv_rtr_handler+0x1e8) [0x2aab1a09b558]
+0:     6  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libuct.so.0(+0xed99) [0x2aab23942d99]
+0:     7  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libuct.so.0(uct_mm_iface_progress+0x6e) [0x2aab23942f7e]
+0:     8  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/ucx/lib/libucp.so.0(ucp_worker_progress+0x3a) [0x2aab1a0834fa]
+0:     9  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_progress+0x17) [0x2aab19c586c7]
+0:    10  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/lib/libopen-pal.so.40(opal_progress+0x2c) [0x2aab0515284c]
+0:    11  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/
+0: lib/libopen-pal.so.40(ompi_sync_wait_mt+0xc5) [0x2aab05159255]
+0:    12  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/lib/libmpi.so.40(ompi_request_default_wait_all+0x231) [0x2aaabb3e0331]
+0:    13  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/lib/libmpi.so.40(ompi_coll_base_bcast_intra_generic+0x46f) [0x2aaabb43a97f]
+0:    14  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/lib/libmpi.so.40(ompi_coll_base_bcast_intra_pipeline+0xc8) [0x2aaabb43ace8]
+0:    15  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_bcast_intra_dec_fixed+0x13e) [0x2aab2cba67de]
+0:    16  /usr/common/software/openmpi/4.0.1-ucx-1.6/gnu-7.3.0-cuda-10.1.168/lib/libmpi.so.40(MPI_Bcast+0x116) [0x2aaabb3fb776]
+0:    17  /usr/common/software/pytorch/v1.3.1-gpu/lib/python3.6/site-packages/torch/lib/libtorch_python.so(+0x834de8) [0x2aaabaec8de8]
+0:    18  /usr/common/software/pytorch/v1.3.1-gpu/lib/python3.6/site-packages/torch/lib/libtorch_python.so(_ZN4c10d15ProcessGroupMPI7runLoopEv+0x134) [0x2aaabaec68a4]
+0:    19  /usr/lib64/libstdc++.so.6(+0xc338f) [0x2aaabb79238f]
+0:    20  /lib64/libpthread.so.0(+0x7569) [0x2aaaaacda569]
+0:    21  /lib64/libc.so.6(clone+0x3f) [0x2aaaaafe9a2f]
+0: ===================
+srun: error: cgpu12: task 0: Segmentation fault
+srun: Terminating job step 451863.0
+0: slurmstepd: error: *** STEP 451863.0 ON cgpu12 CANCELLED AT 2020-02-14T13:23:27 ***
+srun: error: cgpu12: task 1: Terminated
+srun: Force Terminated job step 451863.0
